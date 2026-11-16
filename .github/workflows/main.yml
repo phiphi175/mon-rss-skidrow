@@ -2,8 +2,8 @@ name: Actualisation du RSS et du site
 
 on:
   schedule:
-    # Approximativement chaque heure (GitHub peut décaler l'exécution).
-    - cron: '23 * * * *'
+    # Approximativement toutes les 5 minutes (GitHub peut décaler l'exécution).
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ on:
       - 'docs/index.html'
       - 'docs/app.js'
       - 'docs/style.css'
-      - 'actualisation.yml'
+      - '.github/workflows/actualisation.yml'
 
 permissions:
   contents: write
