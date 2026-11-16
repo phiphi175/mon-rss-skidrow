@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="description" content="Suivez les titres des dernières publications depuis un flux RSS indépendant." />
+  <title>Mon Fil — Publications & RSS</title>
+  <link rel="alternate" type="application/rss+xml" title="Flux RSS des publications" href="./feed.xml" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Mon Fil, accueil"><span class="brand-icon" aria-hidden="true">◉</span><span>MON<span class="brand-accent">FIL</span><small>VEILLE & PUBLICATIONS</small></span></a>
+      <nav class="header-actions" aria-label="Navigation">
+        <a class="nav-link" href="https://www.skidrowreloaded.com/" target="_blank" rel="noopener noreferrer">Source originale <span aria-hidden="true">↗</span></a>
+        <a class="button button-small button-secondary" href="./feed.xml" id="header-rss">◉ &nbsp;Flux RSS</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span class="pulse" aria-hidden="true"></span> AGRÉGATEUR INDÉPENDANT · MÉTADONNÉES UNIQUEMENT</div>
+        <h1 id="hero-title">Toutes les publications.<br><span>Un seul fil.</span></h1>
+        <p>Retrouve les dernières publications répertoriées sur SkidrowReloaded et abonne-toi à ce fil depuis ton application RSS préférée.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="./feed.xml"><span aria-hidden="true">◉</span> Ouvrir le flux RSS <span aria-hidden="true">↗</span></a>
+          <button type="button" class="button button-ghost" id="copy-feed">Copier l'adresse du RSS <span aria-hidden="true">⧉</span></button>
+        </div>
+      </section>
+
+      <section class="overview" aria-label="État des publications">
+        <div class="stat"><span class="stat-label">PUBLICATIONS MÉMORISÉES</span><strong id="item-count">—</strong></div>
+        <div class="stat"><span class="stat-label">DERNIÈRE VÉRIFICATION</span><strong id="checked-at" class="stat-text">—</strong></div>
+        <div class="stat"><span class="stat-label">ÉTAT DU FLUX</span><strong class="status" id="feed-status"><span class="status-dot" aria-hidden="true"></span> Chargement</strong></div>
+      </section>
+
+      <section class="feed-section" aria-labelledby="items-title">
+        <div class="section-top">
+          <div><p class="section-kicker">LE FIL D'ACTUALITÉ</p><h2 id="items-title">Dernières publications</h2></div>
+          <div class="filter"><label for="search" class="sr-only">Rechercher une publication</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Rechercher un titre..." autocomplete="off" /></div>
+        </div>
+        <div class="notice" id="notice" role="status" hidden></div>
+        <div id="articles" class="article-list" aria-live="polite"><div class="empty">Chargement des publications…</div></div>
+        <div class="list-footer"><span id="shown-count"></span><a href="./feed.xml">S'abonner au flux RSS <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer><span>MONFIL · Projet indépendant et non affilié à la source.</span><span>Titres et liens uniquement · Aucun fichier ni téléchargement hébergé.</span></footer>
+  </div>
+</body>
+</html>
