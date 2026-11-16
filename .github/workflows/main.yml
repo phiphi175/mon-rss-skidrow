@@ -1,1 +1,59 @@
-actualisation.yml
+name: Actualisation du RSS et du site
+
+on:
+  schedule:
+    # Approximativement chaque heure (GitHub peut décaler l'exécution).
+    - cron: '23 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'generer.py'
+      - 'requirements.txt'
+      - 'docs/index.html'
+      - 'docs/app.js'
+      - 'docs/style.css'
+      - 'actualisation.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mon-rss-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+      - name: Récupérer les nouvelles publications
+        run: python generer.py
+      - name: Conserver l'historique dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/items.json docs/feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation automatique du RSS"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Publier sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
