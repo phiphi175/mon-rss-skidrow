@@ -2,9 +2,65 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Publications de SkidrowReloaded — flux indépendant</title>
-    <link>https://EXEMPLE.github.io/mon-rss-skidrow/</link>
-    <description>Flux indépendant non encore actualisé.</description>
+    <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
+    <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <atom:link href="https://EXEMPLE.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2026 15:13:59 +0000</lastBuildDate>
+    <generator>Mon RSS Publications 1.0</generator>
+    <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moomin Midsummer Madness-P2P</title>
+      <link>https://www.skidrowreloaded.com/moomin-midsummer-madness-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/moomin-midsummer-madness-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Just Farm-GoldBerg</title>
+      <link>https://www.skidrowreloaded.com/just-farm-goldberg/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/just-farm-goldberg/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Night Crew Early Access</title>
+      <link>https://www.skidrowreloaded.com/night-crew-early-access/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/night-crew-early-access/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Ward Off Evil-P2P</title>
+      <link>https://www.skidrowreloaded.com/ward-off-evil-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/ward-off-evil-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Water TD-P2P</title>
+      <link>https://www.skidrowreloaded.com/water-td-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/water-td-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Occupy Mars The Game v1.2.11-P2P</title>
+      <link>https://www.skidrowreloaded.com/occupy-mars-the-game-v1-2-11-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/occupy-mars-the-game-v1-2-11-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>Formula Legends v1.7.5-P2P</title>
+      <link>https://www.skidrowreloaded.com/formula-legends-v1-7-5-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/formula-legends-v1-7-5-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>BLACKWOOD v20261111-P2P</title>
+      <link>https://www.skidrowreloaded.com/blackwood-v20261111-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/blackwood-v20261111-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
+    <item>
+      <title>ENDLESS Legend 2 v1.0.232-P2P</title>
+      <link>https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/</guid>
+      <description>Nouvelle publication sur le site source.</description>
+    </item>
   </channel>
 </rss>

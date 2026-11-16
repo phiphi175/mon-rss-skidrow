@@ -1,11 +1,70 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "",
-  "last_success_at": "",
-  "status": "erreur",
-  "source_type": "",
-  "message": "Pas encore de première vérification : lance le workflow GitHub Actions.",
-  "errors": [],
-  "items": []
+  "checked_at": "2026-11-16T15:13:59+00:00",
+  "last_success_at": "2026-11-16T15:13:59+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 9 conservés.",
+  "errors": [
+    "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
+    "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
+  ],
+  "items": [
+    {
+      "title": "Moomin Midsummer Madness-P2P",
+      "url": "https://www.skidrowreloaded.com/moomin-midsummer-madness-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Just Farm-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/just-farm-goldberg/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Night Crew Early Access",
+      "url": "https://www.skidrowreloaded.com/night-crew-early-access/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Ward Off Evil-P2P",
+      "url": "https://www.skidrowreloaded.com/ward-off-evil-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Water TD-P2P",
+      "url": "https://www.skidrowreloaded.com/water-td-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Occupy Mars The Game v1.2.11-P2P",
+      "url": "https://www.skidrowreloaded.com/occupy-mars-the-game-v1-2-11-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "Formula Legends v1.7.5-P2P",
+      "url": "https://www.skidrowreloaded.com/formula-legends-v1-7-5-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "BLACKWOOD v20261111-P2P",
+      "url": "https://www.skidrowreloaded.com/blackwood-v20261111-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    },
+    {
+      "title": "ENDLESS Legend 2 v1.0.232-P2P",
+      "url": "https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/",
+      "published": "",
+      "first_seen": "2026-11-16T15:13:59+00:00"
+    }
+  ]
 }
