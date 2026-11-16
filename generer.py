@@ -424,7 +424,7 @@ def write_feed(items, site_url, checked):
         ("description", "Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé)."),
         ("language", "fr"),
         ("lastBuildDate", format_datetime(as_datetime(checked))),
-        ("generator", "Mon RSS Publications 1.0"),
+        ("generator", "Mon RSS Publications 1.1"),
     ):
         ET.SubElement(channel, key).text = val
     ET.SubElement(channel, f"{{{ATOM_NS}}}link", {

@@ -65,6 +65,90 @@ class TestFlux(unittest.TestCase):
                 return FakeResponse()
         self.assertFalse(g.can_fetch_html(FakeSession())[0])
 
+    def test_html_image_standard_et_lazy(self):
+        html = """<main><article><a href='/jeu-test/'><img data-src='/wp-content/uploads/jeu-test.webp' src='data:image/gif;base64,aA=='></a>
+        <h2><a href='/jeu-test/'>Jeu test</a></h2></article></main>"""
+        items = g.parse_html_listing(html)
+        self.assertEqual(items[0]["image"], "https://www.skidrowreloaded.com/wp-content/uploads/jeu-test.webp")
+
+    def test_html_image_liee_bonne_carte(self):
+        html = """<main><article><img src='/pub.jpg'><h2><a href='/test-2/'>Le titre</a></h2>
+        <a href='/test-2/'><img src='/bonne-vignette.jpg'></a></article></main>"""
+        self.assertEqual(g.parse_html_listing(html)[0]["image"], "https://www.skidrowreloaded.com/bonne-vignette.jpg")
+
+    def test_rss_media_et_image_description(self):
+        rss = """<rss xmlns:media='http://search.yahoo.com/mrss/' version='2.0'><channel>
+        <item><title>Titre 1</title><link>https://www.skidrowreloaded.com/jeu-a/</link>
+        <media:thumbnail url='https://cdn.example.org/jeu-a.jpg'/></item>
+        <item><title>Titre 2</title><link>https://www.skidrowreloaded.com/jeu-b/</link>
+        <description>&lt;p&gt;&lt;img src='https://cdn.example.org/jeu-b.png'/&gt;&lt;/p&gt;</description></item>
+        </channel></rss>"""
+        items = g.parse_xml_feed(rss)
+        self.assertEqual(items[0]["image"], "https://cdn.example.org/jeu-a.jpg")
+        self.assertEqual(items[1]["image"], "https://cdn.example.org/jeu-b.png")
+
+    def test_rss_fichiers_zip_non_images(self):
+        rss = """<rss version='2.0'><channel><item><title>Jeu</title>
+        <link>https://www.skidrowreloaded.com/jeu-test/</link>
+        <enclosure url='https://example.org/game.zip' type='application/zip'/>
+        </item></channel></rss>"""
+        item = g.parse_xml_feed(rss)[0]
+        self.assertEqual(item["image"], "")
+
+    def test_historique_image_conservee(self):
+        url = "https://www.skidrowreloaded.com/ancien/"
+        old = [{"title": "Ancien", "url": url, "image": "https://cdn.example.org/a.jpg",
+                "image_checked_at": "2026-11-15T01:00:00+00:00", "published": "", "first_seen": "date"}]
+        fresh = [{"title": "Nouveau", "url": url, "published": "", "image": ""}]
+        merged = g.merge_entries(fresh, old, "now")
+        self.assertEqual(merged[0]["image"], old[0]["image"])
+        self.assertEqual(merged[0]["image_checked_at"], old[0]["image_checked_at"])
+
+    def test_feed_contient_miniature_rss(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(g, "OUT", Path(tmp)):
+                image = "https://cdn.example.org/image.webp"
+                g.write_feed([{"title": "Jeu", "url": "https://www.skidrowreloaded.com/jeu/",
+                               "image": image, "published": ""}],
+                             "https://example.github.io/rss/", "2026-11-16T12:00:00+00:00")
+                root = ET.parse(Path(tmp) / "feed.xml").getroot()
+                node = root.find("channel/item")
+                self.assertEqual(node.find("{http://search.yahoo.com/mrss/}thumbnail").get("url"), image)
+                self.assertIn(image, node.find("description").text)
+
+    def test_url_image_securisee(self):
+        self.assertEqual(g.normalize_image_url("javascript:alert(1)"), "")
+        self.assertEqual(g.normalize_image_url("https://a.example/game.zip"), "")
+        self.assertEqual(g.normalize_image_url("data:image/png;base64,abcd"), "")
+        self.assertEqual(g.normalize_image_url("https://a.example/jeu.jpg"), "https://a.example/jeu.jpg")
+
+    def test_meta_og_image_article(self):
+        html = "<html><head><meta property='og:image' content='/wp-content/uploads/jeu.jpg'></head><body></body></html>"
+        self.assertEqual(g.image_from_article_html(html, g.SOURCE), "https://www.skidrowreloaded.com/wp-content/uploads/jeu.jpg")
+
+    def test_enrichissement_images_sans_contourner_robots(self):
+        class FakeResponse:
+            def __init__(self, url, status=200, text="", typ="text/html"):
+                self.url, self.status_code, self.text, self.headers = url, status, text, {"Content-Type": typ}
+                self.content = text.encode()
+            def raise_for_status(self):
+                return None
+        class FakeSession:
+            def __init__(self):
+                self.calls = []
+            def get(self, url, **kwargs):
+                self.calls.append(url)
+                if url.endswith("robots.txt"):
+                    return FakeResponse(url, text="User-agent: *\nAllow: /\n")
+                return FakeResponse(url, text="<html><meta property='og:image' content='/img.jpg'></html>")
+        session = FakeSession()
+        items = [{"title": "T", "url": "https://www.skidrowreloaded.com/un-jeu/", "image": ""}]
+        g.enrich_missing_images(session, items, "2026-11-16T10:00:00+00:00")
+        self.assertEqual(items[0]["image"], "https://www.skidrowreloaded.com/img.jpg")
+        session.calls.clear()
+        g.enrich_missing_images(session, items, "2026-11-16T10:00:00+00:00")
+        self.assertEqual(session.calls, [])
+
     def test_invalid_date_not_faked(self):
         self.assertIsNone(g.as_datetime("dans quelques jours"))
 

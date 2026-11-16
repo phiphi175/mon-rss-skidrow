@@ -2,7 +2,7 @@
 
 Un petit site web en français qui affiche les **titres, dates disponibles et liens des publications publiques** de SkidrowReloaded, et produit une URL `feed.xml` pour ton lecteur RSS.
 
-**Aucune image, jeu, archive, torrent, lien de téléchargement ou texte intégral n'est copié.** Le projet n'est pas affilié au site d'origine.
+**Aucune image, jeu, archive, torrent, lien de téléchargement ou texte intégral n’est copié.** Le site et le flux RSS peuvent toutefois **afficher des miniatures via leurs URLs d’origine**, sans héberger ces images. Le projet n'est pas affilié au site d'origine.
 
 ## Installation facile (GitHub, sans hébergement à payer)
 
@@ -16,7 +16,7 @@ Un petit site web en français qui affiche les **titres, dates disponibles et li
 
 ### 2. Envoyer le ZIP décompressé
 
-1. Décompresse `mon-rss-skidrow.zip` sur ton PC.
+1. Décompresse `mon-rss-skidrow-COMPLET-images-5min.zip` sur ton PC.
 2. Dans le dépôt GitHub que tu viens de créer, clique sur **uploading an existing file** (ou **Add file → Upload files**).
 3. Glisse **tous les fichiers ET dossiers à l'intérieur du dossier décompressé**, en conservant l'arborescence (`.github`, `docs`, `examples`, `tests`, `generer.py`...).
 4. Clique sur **Commit changes**.
@@ -45,11 +45,21 @@ Remplace `TON-PSEUDO` par ton identifiant GitHub et, si tu as renommé le dépô
 
 Ouvre le site, clique **Copier l'adresse du RSS**, puis colle-la dans Feedly, Inoreader, FreshRSS ou ton lecteur préféré. Le flux est au format RSS 2.0.
 
+## Mise à jour du dépôt existant (sans perdre les publications)
+
+Si ton site fonctionne déjà sur `phiphi175/mon-rss-skidrow`, **conserve tes fichiers existants `docs/items.json` et `docs/feed.xml`**. Ils ne sont volontairement pas fournis dans le ZIP complet. Fais-en une copie de sauvegarde avant l'installation.
+
+Décompresse le ZIP, puis envoie **tout son contenu** à la racine de ton dépôt GitHub via **Code → Add file → Upload files**, en conservant l’arborescence des dossiers. Confirme avec **Commit changes**, puis lance une fois **Actions → Actualisation du RSS et du site → Run workflow**. Ton adresse de site et ton adresse RSS restent identiques.
+
+## Miniatures et compatibilité
+
+Le programme cherche des URLs d’images sur le flux RSS, la page d'accueil et (si l’accès est permis) les pages des articles. Les miniatures peuvent apparaître dans le site et dans les lecteurs RSS qui interprètent `media:thumbnail` ou le HTML des descriptions. Elles sont chargées chez l’hébergeur d’origine, **pas téléchargées ni recopiées**. Certaines peuvent ne pas apparaître si leur hébergeur bloque l’affichage externe. Au maximum quatre pages d’articles sont consultées pour les images par passage, et une image manquante n’est retentée qu’après 24 heures.
+
 ## Actualisation automatique
 
-Le robot GitHub tente de vérifier les nouvelles publications **environ une fois par heure**, grâce à `.github/workflows/actualisation.yml` (planification `23 * * * *`). Les exécutions peuvent être retardées ou interrompues par GitHub ; elles ne sont pas garanties à l'heure précise. GitHub peut également désactiver les workflows planifiés d'un dépôt public resté inactif pendant 60 jours (à réactiver alors dans l'onglet Actions).
+Le robot GitHub tente de vérifier les nouvelles publications **environ toutes les 5 minutes**, grâce à `.github/workflows/actualisation.yml` (planification `*/5 * * * *`). Les exécutions peuvent être retardées ou interrompues par GitHub ; elles ne sont pas garanties à l'heure précise. GitHub peut également désactiver les workflows planifiés d'un dépôt public resté inactif pendant 60 jours (à réactiver alors dans l'onglet Actions).
 
-Le programme essaie successivement un flux FeedBurner associé au site, son RSS WordPress, un autre point d'entrée RSS, puis **sa page d'accueil HTML si robots.txt l'autorise**. Les nouvelles entrées sont enregistrées dans `docs/items.json`, les anciennes restent disponibles, et le flux RSS est écrit dans `docs/feed.xml`.
+Le programme essaie successivement un flux FeedBurner associé au site, son RSS WordPress, un autre point d'entrée RSS, puis **sa page d'accueil HTML si robots.txt l'autorise**. Les nouvelles entrées sont enregistrées dans `docs/items.json`, les anciennes restent disponibles, et le flux RSS est écrit dans `docs/feed.xml`. **Ces deux fichiers de données sont générés automatiquement : ils ne sont pas dans le ZIP pour ne pas écraser l’historique si tu mets à jour un dépôt existant.**
 
 **Limitation importante :** le site d'origine utilise parfois des protections anti-robots (HTTP 403). Ce logiciel **ne contourne pas** les refus d'accès, ne résout aucun CAPTCHA et ne garantit pas que les publications puissent être récupérées depuis les serveurs de GitHub. Si toutes les sources sont bloquées, le site indique « Source inaccessible » et conserve les anciennes entrées. La première exécution peut donc afficher 0 publication. L'absence d'erreur dans le workflow ne garantit pas que la récupération ait réussi : regarde l'état sur ton site ou les étapes dans **Actions**.
 

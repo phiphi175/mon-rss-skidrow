@@ -1,41 +1,55 @@
-MON FIL — INSTALLATION FACILE (5 ÉTAPES)
-======================================
+MON RSS — VERSION COMPLÈTE 1.1 (MINIATURES + 5 MINUTES)
+=======================================================
 
-Ce ZIP contient un petit site web personnel et un flux RSS indépendant.
-Il regroupe les TITRES, DATES (si disponibles) et LIENS des nouvelles
-publications publiques de SkidrowReloaded. Il ne recopie ni les articles
-complets, ni les fichiers, ni les liens de téléchargement.
+BONNE NOUVELLE : CE ZIP CONTIENT TOUT LE CODE DU SITE ET DU RSS !
+Il contient le programme, les pages web, les styles, le système
+GitHub Actions, les dépendances et les tests.
 
-1) Crée un compte gratuit sur https://github.com si nécessaire.
+SI TON SITE EST DÉJÀ EN LIGNE (phiphi175/mon-rss-skidrow)
+------------------------------------------------------
+1. Fais d'abord une copie de sécurité des deux fichiers de ton dépôt :
+      docs/items.json     (historique des publications)
+      docs/feed.xml       (flux RSS actuel)
+2. Décompresse ce ZIP sur ton PC.
+3. Dans le dépôt GitHub, ouvre Code > Add file > Upload files.
+4. Envoie le CONTENU du dossier « mon-rss-skidrow-complet-v1.1 » :
+   le fichier generer.py, README.md, requirements.txt et les dossiers
+   docs, .github, tests, examples, etc.
+   Conserve les chemins des sous-dossiers. Le fichier indispensable est
+   .github/workflows/actualisation.yml (dossier caché sous Windows).
+5. Clique sur Commit changes.
+6. Va dans Actions > Actualisation du RSS et du site > Run workflow.
+   Il sera ensuite programmé automatiquement toutes les 5 minutes.
+7. Ouvre :
+   https://phiphi175.github.io/mon-rss-skidrow/
+   https://phiphi175.github.io/mon-rss-skidrow/feed.xml
 
-2) Sur GitHub, crée un dépôt PUBLIC nommé : mon-rss-skidrow
-   (bouton + > New repository > Create repository).
+IMPORTANT : ce ZIP ne contient VOLONTAIREMENT PAS docs/items.json
+ni docs/feed.xml pour ne PAS écraser ton historique. Ce sont des
+fichiers générés automatiquement au premier lancement du programme.
+Conserve les deux fichiers actuels déjà présents sur ton dépôt.
 
-3) Décompresse ce ZIP sur ton ordinateur, puis envoie TOUS les fichiers
-   et dossiers qui sont à l'intérieur de « mon-rss-skidrow » dans le dépôt.
-   Sur GitHub : Add file > Upload files > Commit changes.
-   IMPORTANT : conserve le dossier caché .github et son sous-dossier
-   workflows avec le fichier actualisation.yml.
+SI TU CRÉES UN NOUVEAU DÉPÔT
+---------------------------
+Les étapes sont identiques. Dans Settings > Pages, choisis GitHub Actions
+comme Source, puis lance une fois le workflow depuis l'onglet Actions.
+Le programme créera automatiquement docs/items.json et docs/feed.xml.
 
-4) Dans ton dépôt, va à Settings > Pages et sélectionne « GitHub Actions »
-   dans Build and deployment > Source.
+CE QUI CHANGE
+-------------
+• Images miniatures sur le site + dans le flux RSS, si accessibles.
+• Programmation GitHub Actions : toutes les 5 minutes (approximative).
+• Conservations des anciens articles et images déjà enregistrés.
+• Pour ménager la source : 4 pages d'articles au maximum par lancement,
+  nouvelles tentatives d'images manquantes après 24 heures.
 
-5) Va dans Actions > « Actualisation du RSS et du site » > Run workflow.
-   Choisis main et relance avec Run workflow. Quand le déploiement
-   est terminé, ouvre ton site puis copie le lien RSS.
+REMARQUES
+---------
+Certaines images peuvent ne pas s'afficher à cause des protections du
+site d'origine ou du blocage d'affichage depuis d'autres domaines.
+Le robot ne contourne pas les protections ni les erreurs HTTP 403.
+La coche verte de GitHub confirme une exécution sans erreur, pas la
+présence effective de nouvelles publications ou de nouvelles images.
+GitHub peut retarder ou omettre des lancements programmés.
 
-SI TON PSEUDO GITHUB EST « exemple » :
-Site : https://exemple.github.io/mon-rss-skidrow/
-RSS  : https://exemple.github.io/mon-rss-skidrow/feed.xml
-
-Remplace « exemple » par ton véritable identifiant GitHub.
-
-La récupération s'exécute ensuite environ une fois par heure, sans
-laisser ton ordinateur allumé. GitHub peut retarder ou suspendre les
-actualisations.
-
-ATTENTION : si SkidrowReloaded bloque les requêtes automatiques, le
-flux peut rester vide ou conserver les anciennes publications.
-Le programme ne contourne pas les protections, et le fonctionnement
-à distance n'est pas garanti. Lis le fichier README.md pour l'aide
-complète et le dépannage.
+Lis README.md pour le guide détaillé et le dépannage.
