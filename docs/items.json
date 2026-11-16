@@ -1,0 +1,11 @@
+{
+  "title": "Mon fil de publications",
+  "source_url": "https://www.skidrowreloaded.com/",
+  "checked_at": "",
+  "last_success_at": "",
+  "status": "erreur",
+  "source_type": "",
+  "message": "Pas encore de première vérification : lance le workflow GitHub Actions.",
+  "errors": [],
+  "items": []
+}
