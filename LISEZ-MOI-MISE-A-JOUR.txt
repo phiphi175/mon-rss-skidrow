@@ -1,0 +1,69 @@
+MISE À JOUR : IMAGES + ACTUALISATION TOUTES LES 5 MINUTES
+=========================================================
+
+CE ZIP EST UNE MISE À JOUR POUR TON PROJET EXISTANT.
+Ne recrée PAS de dépôt GitHub et ne supprime PAS tes publications !
+
+CE QUI CHANGE
+--------------
+- Récupération des miniatures depuis le RSS, la page d'accueil ou certains articles.
+- Affichage des images dans ton site et dans les lecteurs RSS compatibles.
+- Vérification programmée toutes les 5 minutes (des retards GitHub sont possibles).
+- Conservation des anciens articles et des anciennes images déjà connues.
+
+INSTALLATION (DEPUIS TON NAVIGATEUR, SANS CODER)
+------------------------------------------------
+1. Décompresse ce ZIP sur ton PC.
+2. Ouvre ton dépôt : https://github.com/phiphi175/mon-rss-skidrow
+3. Clique « Code » puis « Add file » → « Upload files ».
+4. Fais glisser LES QUATRE FICHIERS à leurs emplacements d'origine
+   en conservant les dossiers :
+
+       generer.py
+       docs/app.js
+       docs/style.css
+       .github/workflows/actualisation.yml
+
+   Le plus simple : glisse le CONTENU du dossier décompressé
+   (le fichier generer.py ET les dossiers docs et .github).
+   Si Windows masque .github, active : Afficher → Éléments masqués.
+   Si GitHub t'indique qu'il remplace des fichiers existants,
+   c'est normal : c'est précisément le but de cette mise à jour.
+
+5. Clique « Commit changes » pour enregistrer les modifications.
+6. Va dans « Actions » → « Actualisation du RSS et du site ».
+7. Clique « Run workflow » → bouton vert « Run workflow ».
+8. Ouvre ton site : https://phiphi175.github.io/mon-rss-skidrow/
+   et ton RSS : https://phiphi175.github.io/mon-rss-skidrow/feed.xml
+
+ATTENTION : NE PAS EFFACER OU REMPLACER
+---------------------------------------
+    docs/items.json
+    docs/feed.xml
+Ces deux fichiers stockent les données de ton site.
+Ils NE sont PAS présents dans le ZIP de mise à jour.
+
+SI TU N'ARRIVES PAS À ENVOYER LES DOSSIERS
+------------------------------------------
+Sur GitHub, tu peux aussi ouvrir le fichier existant,
+cliquer sur le petit crayon « Edit this file », remplacer
+son contenu par le contenu du fichier portant le même nom,
+puis cliquer sur « Commit changes ».
+
+IMAGES NON AFFICHÉES ?
+----------------------
+Certaines miniatures peuvent être bloquées par le site source
+ou leur hébergeur. Dans ce cas, la publication restera visible
+sans image. Le programme n'essaie pas de contourner les protections.
+Pour limiter les requêtes, il cherche au plus 4 miniatures absentes
+par exécution et n'essaie à nouveau les images manquantes
+qu'après 24 heures. Les images sont référencées, pas téléchargées.
+
+Le succès vert de GitHub Actions indique que la tâche a fonctionné,
+mais pas forcément que le site source a fourni ses miniatures.
+Les lancements toutes les 5 minutes sont approximatifs et non garantis.
+
+IMPORTANT
+---------
+Cette mise à jour n'est PAS encore installée dans ton compte GitHub :
+tu dois déposer ces fichiers et lancer le workflow une fois.

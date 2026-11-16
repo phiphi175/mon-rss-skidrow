@@ -28,6 +28,24 @@ function appendArticle(item) {
   row.href = item.url;
   row.target = "_blank";
   row.rel = "noopener noreferrer";
+  // La miniature est chargée directement sur son hébergeur d'origine ;
+  // en cas de blocage (hotlink/403), la carte reste utilisable sans image.
+  if (item.image) {
+    try {
+      const imgUrl = new URL(item.image);
+      if (imgUrl.protocol === "https:" && /\.(?:jpe?g|png|webp|gif|avif)$/i.test(imgUrl.pathname)) {
+        const img = document.createElement("img");
+        img.className = "article-image";
+        img.src = imgUrl.href;
+        img.alt = "";
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.referrerPolicy = "no-referrer";
+        img.addEventListener("error", () => img.remove());
+        row.append(img);
+      }
+    } catch { /* miniature absente ou URL invalide */ }
+  }
   const main = document.createElement("div");
   main.className = "article-main";
   const title = document.createElement("h3");

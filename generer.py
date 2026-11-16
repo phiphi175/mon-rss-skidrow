@@ -7,6 +7,7 @@ Il respecte robots.txt pour l'extraction HTML et n'essaie pas de contourner un 4
 from __future__ import annotations
 
 import argparse
+import html as html_module
 from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime, parsedate_to_datetime
 import json
@@ -29,10 +30,15 @@ SOURCES_RSS = (
     "https://www.skidrowreloaded.com/feed/",
     "https://www.skidrowreloaded.com/?feed=rss2",
 )
-USER_AGENT = "MonRSSPublications/1.0 (agrégateur de titres; vérification horaire)"
+USER_AGENT = "MonRSSPublications/1.1 (agrégateur de titres et liens des miniatures)"
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, application/xml, text/html;q=0.8"}
 TIMEOUT = 16
 MAX_ARTICLES = 180
+IMAGE_LOOKUPS_PER_RUN = 4  # Respecter le serveur source : max. quatre pages d'articles par passage.
+IMAGE_RETRY_HOURS = 24  # Ne pas re-tester les images manquantes toutes les cinq minutes.
+IMAGE_EXTENSIONS = re.compile(r"\.(?:jpe?g|png|webp|gif|avif)$", re.I)
+MEDIA_NS = "http://search.yahoo.com/mrss/"
+ET.register_namespace("media", MEDIA_NS)
 ALLOWED_DOMAINS = {"skidrowreloaded.com", "www.skidrowreloaded.com"}
 ATOM_NS = "http://www.w3.org/2005/Atom"
 ET.register_namespace("atom", ATOM_NS)
@@ -78,12 +84,102 @@ def normalize_article_url(raw, base=SOURCE):
     return urlunparse(("https", "www.skidrowreloaded.com", "/" + slugs[0] + "/", "", "", ""))
 
 
+def normalize_image_url(raw, base=SOURCE):
+    """Valide une URL de miniature ; aucune image n'est téléchargée ni recopiée."""
+    if not raw or not isinstance(raw, str):
+        return ""
+    raw = html_module.unescape(raw.strip()).strip("\"'")
+    if not raw or len(raw) > 2048:
+        return ""
+    url = urljoin(base, raw)
+    parsed = urlparse(url)
+    if parsed.scheme not in ("http", "https") or not parsed.hostname or parsed.username or parsed.password:
+        return ""
+    # On ne publie que des liens HTTPS vers de vrais formats d'image.
+    if not IMAGE_EXTENSIONS.search(unquote(parsed.path)):
+        return ""
+    name = unquote(parsed.path).rsplit("/", 1)[-1].lower()
+    if any(s in name for s in ("favicon", "site-logo", "gravatar", "avatar", "pixel-1x1", "spacer.gif")):
+        return ""
+    return urlunparse(("https", parsed.netloc, parsed.path, parsed.params, parsed.query, ""))
+
+
+def parse_srcset(raw, base):
+    choices = []
+    for candidate in (raw or "").split(","):
+        parts = candidate.strip().split()
+        if not parts:
+            continue
+        url = normalize_image_url(parts[0], base)
+        if url:
+            size = 600
+            if len(parts) > 1 and parts[1].endswith("w"):
+                try:
+                    size = int(parts[1][:-1])
+                except ValueError:
+                    pass
+            choices.append((size, url))
+    if not choices:
+        return ""
+    return min(choices, key=lambda v: (v[0] < 340, abs(v[0] - 680)))[1]
+
+
+def image_from_tag(tag, base):
+    if tag is None:
+        return ""
+    for attr in ("data-src", "data-lazy-src", "data-original", "data-echo", "data-fallback-src"):
+        url = normalize_image_url(tag.get(attr), base)
+        if url:
+            return url
+    for attr in ("data-srcset", "srcset"):
+        url = parse_srcset(tag.get(attr), base)
+        if url:
+            return url
+    return normalize_image_url(tag.get("src"), base)
+
+
+def image_from_markup(soup, base, article_url=""):
+    """Privilégie les miniatures liées à cet article dans une carte HTML."""
+    images = soup.select("img")
+    for img in images:
+        anchor = img.find_parent("a", href=True)
+        if anchor and normalize_article_url(anchor.get("href"), base) == article_url:
+            url = image_from_tag(img, base)
+            if url:
+                return url
+    for selector in (
+        ".post-thumbnail img", ".entry-thumb img", ".thumbnail img",
+        ".thumb img", ".featured-image img", "img.wp-post-image",
+        "img.attachment-post-thumbnail", "img",
+    ):
+        for img in soup.select(selector):
+            url = image_from_tag(img, base)
+            if url:
+                return url
+    return ""
+
+
+def image_from_article_html(raw_html, base):
+    soup = BeautifulSoup(raw_html, "html.parser")
+    for selector, attr in (
+        ('meta[property="og:image:secure_url"]', "content"),
+        ('meta[property="og:image"]', "content"),
+        ('meta[name="twitter:image"]', "content"),
+    ):
+        tag = soup.select_one(selector)
+        url = normalize_image_url(tag.get(attr), base) if tag else ""
+        if url:
+            return url
+    content = soup.select_one("article, .entry-content, .post-content, main, #content") or soup
+    return image_from_markup(content, base)
+
+
 def clean_title(value):
     return re.sub(r"\s+", " ", (value or "")).strip()[:240]
 
 
 def parse_xml_feed(raw_xml):
-    """Lit des flux RSS 2.0 ou Atom, en ignorant descriptions et téléchargements."""
+    """Lit RSS/Atom, y compris les miniatures (pas les archives ni les téléchargements)."""
     try:
         tree = ET.fromstring(raw_xml)
     except ET.ParseError:
@@ -96,6 +192,8 @@ def parse_xml_feed(raw_xml):
     for entry in entries:
         fields = {}
         links = []
+        image = ""
+        html_fragments = []
         for node in entry:
             name = node.tag.rsplit("}", 1)[-1].lower()
             if name in ("title", "pubdate", "published", "updated", "date", "guid", "id"):
@@ -106,13 +204,31 @@ def parse_xml_feed(raw_xml):
                 rel = node.attrib.get("rel", "alternate")
                 if rel == "alternate":
                     links.append(link)
-        candidate = next((normalize_article_url(u) for u in links if normalize_article_url(u)), None)
+            if name in ("description", "encoded", "summary", "content") and node.text:
+                html_fragments.append(node.text)
+            # Media RSS : <media:thumbnail> et <media:content medium="image">.
+            if node.tag.startswith("{" + MEDIA_NS + "}") and name in ("thumbnail", "content"):
+                if name == "thumbnail" or node.get("medium") == "image" or (node.get("type") or "").startswith("image/"):
+                    image = image or normalize_image_url(node.get("url"))
+            # Les enclosures non-image (ZIP, EXE, torrents...) sont ignorées.
+            if name == "enclosure" and (node.get("type") or "").startswith("image/"):
+                image = image or normalize_image_url(node.get("url"))
+            if name == "image" and node.get("href"):
+                image = image or normalize_image_url(node.get("href"))
+        candidate = next((valid for u in links if (valid := normalize_article_url(u))), None)
         if not candidate:
             candidate = normalize_article_url(fields.get("guid") or fields.get("id"))
         title = clean_title(fields.get("title"))
         if candidate and title:
+            if not image:
+                for fragment in html_fragments:
+                    image = image_from_markup(BeautifulSoup(fragment, "html.parser"), SOURCE, candidate)
+                    if image:
+                        break
             dt = as_datetime(fields.get("pubdate") or fields.get("published") or fields.get("date") or fields.get("updated"))
-            items.append({"title": title, "url": candidate, "published": dt.isoformat(timespec="seconds") if dt else ""})
+            items.append({"title": title, "url": candidate,
+                          "published": dt.isoformat(timespec="seconds") if dt else "",
+                          "image": image})
     return dedupe(items)
 
 
@@ -139,7 +255,10 @@ def parse_html_listing(html, base=SOURCE):
         if date_node:
             date_str = date_node.get("datetime") or date_node.get("content") or date_node.get_text(" ", strip=True)
         date = as_datetime(date_str)
-        items.append({"title": title, "url": link, "published": date.isoformat(timespec="seconds") if date else ""})
+        image = image_from_markup(block, base, link)
+        items.append({"title": title, "url": link,
+                      "published": date.isoformat(timespec="seconds") if date else "",
+                      "image": image})
     return dedupe(items)
 
 
@@ -153,20 +272,61 @@ def dedupe(items):
     return result
 
 
-def can_fetch_html(session):
-    """L'accès inconnu ou refusé n'est jamais traité comme une permission."""
+def read_robots(session):
+    """Renvoie (règles, autorisation racine, raison), sans ignorer les refus."""
     robots = urljoin(SOURCE, "/robots.txt")
     try:
         response = session.get(robots, timeout=TIMEOUT)
         if response.status_code in (404, 410):
-            return True, "robots.txt absent"
+            return None, True, "robots.txt absent"
         if response.status_code != 200:
-            return False, f"robots.txt : HTTP {response.status_code}"
+            return None, False, f"robots.txt : HTTP {response.status_code}"
         parser = RobotFileParser()
         parser.parse(response.text.splitlines())
-        return parser.can_fetch("MonRSSPublications", SOURCE), "Consignes robots.txt"
+        return parser, parser.can_fetch("MonRSSPublications", SOURCE), "Consignes robots.txt"
     except requests.RequestException as err:
-        return False, f"robots.txt inaccessible : {err.__class__.__name__}"
+        return None, False, f"robots.txt inaccessible : {err.__class__.__name__}"
+
+
+def can_fetch_html(session):
+    _, allowed, why = read_robots(session)
+    return allowed, why
+
+
+def enrich_missing_images(session, items, checked):
+    """Complète jusqu'à 4 miniatures manquantes ; une nouvelle tentative après 24 h."""
+    eligible = []
+    deadline = datetime.now(timezone.utc) - timedelta(hours=IMAGE_RETRY_HOURS)
+    for item in items:
+        if item.get("image"):
+            continue
+        previous = as_datetime(item.get("image_checked_at"))
+        if previous and previous > deadline:
+            continue
+        eligible.append(item)
+        if len(eligible) >= IMAGE_LOOKUPS_PER_RUN:
+            break
+    if not eligible:
+        return
+    parser, allowed, why = read_robots(session)
+    if not allowed:
+        print("INFO : miniatures non interrogées (" + why + ")")
+        return
+    for item in eligible:
+        item["image_checked_at"] = checked
+        if parser and not parser.can_fetch("MonRSSPublications", item["url"]):
+            print("INFO : page article interdite par robots.txt")
+            continue
+        try:
+            response = safe_get(session, item["url"])
+            if "html" not in response.headers.get("Content-Type", "text/html").lower():
+                continue
+            image = image_from_article_html(response.text, response.url)
+            if image:
+                item["image"] = image
+        except (requests.RequestException, ValueError) as err:
+            print(f"INFO : image non disponible pour {item['url']} ({err.__class__.__name__})")
+
 
 
 def safe_get(session, url):
@@ -243,7 +403,9 @@ def merge_entries(fresh, old, checked):
     for item in fresh:
         previous = known.get(item["url"], {})
         merged.append({"title": item["title"], "url": item["url"],
-                       "published": item["published"] or previous.get("published", ""),
+                       "published": item.get("published") or previous.get("published", ""),
+                       "image": item.get("image") or previous.get("image", ""),
+                       "image_checked_at": previous.get("image_checked_at", ""),
                        "first_seen": previous.get("first_seen", checked)})
     seen = {v["url"] for v in merged}
     for item in old:
@@ -273,7 +435,14 @@ def write_feed(items, site_url, checked):
         ET.SubElement(node, "title").text = item["title"]
         ET.SubElement(node, "link").text = item["url"]
         ET.SubElement(node, "guid", isPermaLink="true").text = item["url"]
-        ET.SubElement(node, "description").text = "Nouvelle publication sur le site source."
+        image = normalize_image_url(item.get("image"))
+        if image:
+            ET.SubElement(node, f"{{{MEDIA_NS}}}thumbnail", {"url": image})
+            # La description HTML est utilisée par les lecteurs RSS qui ignorent Media RSS.
+            description = '<p><img src="' + html_module.escape(image, quote=True) + '" alt="Miniature de la publication" /></p><p>Nouvelle publication sur le site source.</p>'
+        else:
+            description = "Nouvelle publication sur le site source."
+        ET.SubElement(node, "description").text = description
         published = as_datetime(item.get("published"))
         if published:
             ET.SubElement(node, "pubDate").text = format_datetime(published)
@@ -301,6 +470,8 @@ def run(demo=False):
         new_items, source, errors = fetch_entries(session)
     if new_items:
         items = merge_entries(new_items, old.get("items", []), checked)
+        if not demo:
+            enrich_missing_images(session, items, checked)
         state = "demo" if demo else "ok"
         last_success = "" if demo else checked
     else:
