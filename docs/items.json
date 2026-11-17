@@ -1,17 +1,57 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-17T15:15:40+00:00",
-  "last_success_at": "2026-11-17T15:15:40+00:00",
+  "checked_at": "2026-11-17T15:20:46+00:00",
+  "last_success_at": "2026-11-17T15:20:46+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 24 conservés.",
+  "message": "9 articles trouvés ; 29 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: HTTPSConnectionPool(host='www.skidrowreloaded.com', port=443): Read timed out. (read timeout=16)"
   ],
   "items": [
+    {
+      "title": "Gold Mining Simulator Definitive Edition-RUNE",
+      "url": "https://www.skidrowreloaded.com/gold-mining-simulator-definitive-edition-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Gold-Mining-Simulator-Definitive-Edition.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-17T15:20:46+00:00"
+    },
+    {
+      "title": "Football Referee Life Simulator 26 Early Access",
+      "url": "https://www.skidrowreloaded.com/football-referee-life-simulator-26-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-17T15:20:46+00:00"
+    },
+    {
+      "title": "Net Worthless-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/net-worthless-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Net-Worthless.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-17T15:20:46+00:00"
+    },
+    {
+      "title": "Dungeonbound-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/dungeonbound-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dungeonbound.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-17T15:20:46+00:00"
+    },
+    {
+      "title": "Here Comes the Horde-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/here-comes-the-horde-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Here-Comes-the-Horde.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-17T15:20:46+00:00"
+    },
     {
       "title": "Deep Rock Galactic Survivor Knockout-RUNE",
       "url": "https://www.skidrowreloaded.com/deep-rock-galactic-survivor-knockout-rune/",
