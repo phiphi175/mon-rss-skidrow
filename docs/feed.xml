@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Nov 2026 16:05:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 16:10:43 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Vast White-GoldBerg</title>
+      <link>https://www.skidrowreloaded.com/the-vast-white-goldberg/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/the-vast-white-goldberg/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Vast-White.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Vast-White.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gold Mining Simulator Definitive Edition-RUNE</title>
       <link>https://www.skidrowreloaded.com/gold-mining-simulator-definitive-edition-rune/</link>
