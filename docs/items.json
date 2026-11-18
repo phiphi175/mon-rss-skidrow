@@ -1,17 +1,49 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-18T08:55:41+00:00",
-  "last_success_at": "2026-11-18T08:55:41+00:00",
+  "checked_at": "2026-11-18T09:01:05+00:00",
+  "last_success_at": "2026-11-18T09:01:05+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 41 conservés.",
+  "message": "9 articles trouvés ; 45 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "771 Smile and work-TENOKE",
+      "url": "https://www.skidrowreloaded.com/771-smile-and-work-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/771-Smile-and-work.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-18T09:01:05+00:00"
+    },
+    {
+      "title": "Funeral for the Sun-TENOKE",
+      "url": "https://www.skidrowreloaded.com/funeral-for-the-sun-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Funeral-for-the-Sun.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-18T09:01:05+00:00"
+    },
+    {
+      "title": "PITH-TENOKE",
+      "url": "https://www.skidrowreloaded.com/pith-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/PITH.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-18T09:01:05+00:00"
+    },
+    {
+      "title": "TK The LW Oath of Heaven Enhanced Edition-TENOKE",
+      "url": "https://www.skidrowreloaded.com/three-kingdoms-the-last-warlord-oath-of-heaven-enhanced-edition-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/12/Three-Kingdoms-The-Last-Warlord-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-18T09:01:05+00:00"
+    },
     {
       "title": "Gears of War E-Day v4958079-P2P",
       "url": "https://www.skidrowreloaded.com/gears-of-war-e-day-v4958079-p2p/",
