@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-18T15:40:48+00:00",
-  "last_success_at": "2026-11-18T15:40:48+00:00",
+  "checked_at": "2026-11-18T15:45:47+00:00",
+  "last_success_at": "2026-11-18T15:45:47+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 47 conservés.",
+  "message": "9 articles trouvés ; 48 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Disney Dreamlight Valley The Keepsake Sea-RUNE",
+      "url": "https://www.skidrowreloaded.com/disney-dreamlight-valley-the-keepsake-sea-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Disney-Dreamlight-Valley-The-Keepsake-Sea.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-18T15:45:47+00:00"
+    },
     {
       "title": "eFootball PES 2021 v1.07.02-Aoba",
       "url": "https://www.skidrowreloaded.com/efootball-pes-2021-v1-07-02-aoba/",
