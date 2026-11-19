@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-19T15:15:38+00:00",
-  "last_success_at": "2026-11-19T15:15:38+00:00",
+  "checked_at": "2026-11-19T15:20:41+00:00",
+  "last_success_at": "2026-11-19T15:20:41+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 74 conservés.",
+  "message": "9 articles trouvés ; 75 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Goat Simulator 3 Ticket to Dizzyworld-RUNE",
+      "url": "https://www.skidrowreloaded.com/goat-simulator-3-ticket-to-dizzyworld-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Goat-Simulator-3-Ticket-to-Dizzyworld.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T15:20:41+00:00"
+    },
     {
       "title": "Springs Eternal-GoldBerg",
       "url": "https://www.skidrowreloaded.com/springs-eternal-goldberg/",
