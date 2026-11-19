@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:10:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:15:38 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Springs Eternal-GoldBerg</title>
+      <link>https://www.skidrowreloaded.com/springs-eternal-goldberg/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/springs-eternal-goldberg/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Springs-Eternal.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Springs-Eternal.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dawn of Defense-GoldBerg</title>
       <link>https://www.skidrowreloaded.com/dawn-of-defense-goldberg/</link>
