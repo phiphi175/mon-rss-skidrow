@@ -1,17 +1,89 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-19T05:15:39+00:00",
-  "last_success_at": "2026-11-19T05:15:39+00:00",
+  "checked_at": "2026-11-19T05:20:41+00:00",
+  "last_success_at": "2026-11-19T05:20:41+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 52 conservés.",
+  "message": "9 articles trouvés ; 61 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Wicked Island-Razor1911",
+      "url": "https://www.skidrowreloaded.com/wicked-island-razor1911/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wicked-Island.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Creator Chronicles v1.21-P2P",
+      "url": "https://www.skidrowreloaded.com/creator-chronicles-v1-21-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Creator-Chronicles.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Reus 2 v1.12.2-P2P",
+      "url": "https://www.skidrowreloaded.com/reus-2-v1-12-2-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/05/Reus-2-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Above the Snow v1.4-P2P",
+      "url": "https://www.skidrowreloaded.com/above-the-snow-v1-4-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/04/Above-the-Snow.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Ale And Tale Tavern v1.6.19-P2P",
+      "url": "https://www.skidrowreloaded.com/ale-and-tale-tavern-v1-6-19-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/03/Ale-and-Tale-Tavern.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "The Roottrees are Dead v20261116-P2P",
+      "url": "https://www.skidrowreloaded.com/the-roottrees-are-dead-v20261116-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/01/The-Roottrees-are-Dead-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Loot Loop v1.2-P2P",
+      "url": "https://www.skidrowreloaded.com/loot-loop-v1-2-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/04/Loot-Loop.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Kingdoms of the Dump v1.1.10-P2P",
+      "url": "https://www.skidrowreloaded.com/kingdoms-of-the-dump-v1-1-10-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Kingdoms-of-the-Dump-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
+    {
+      "title": "Trailmakers v254.519.592.0-P2P",
+      "url": "https://www.skidrowreloaded.com/trailmakers-v254-519-592-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/04/Trailmakers-pc-free-download.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T05:20:41+00:00"
+    },
     {
       "title": "Dreadmiles Early Access",
       "url": "https://www.skidrowreloaded.com/dreadmiles-early-access/",
