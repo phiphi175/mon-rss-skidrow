@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-19T07:30:53+00:00",
-  "last_success_at": "2026-11-19T07:30:53+00:00",
+  "checked_at": "2026-11-19T07:35:31+00:00",
+  "last_success_at": "2026-11-19T07:35:31+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 70 conservés.",
+  "message": "9 articles trouvés ; 71 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Totos Journey-RUNE",
+      "url": "https://www.skidrowreloaded.com/totos-journey-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Totos-Journey.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-19T07:35:31+00:00"
+    },
     {
       "title": "Call to Arms Gates of Hell Ostfront v1.069.0-P2P",
       "url": "https://www.skidrowreloaded.com/call-to-arms-gates-of-hell-ostfront-v1-069-0-p2p/",
