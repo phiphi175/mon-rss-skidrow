@@ -1,17 +1,89 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-20T06:35:33+00:00",
-  "last_success_at": "2026-11-20T06:35:33+00:00",
+  "checked_at": "2026-11-20T06:40:45+00:00",
+  "last_success_at": "2026-11-20T06:40:45+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 77 conservés.",
+  "message": "9 articles trouvés ; 86 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Transport Fever 3 v40444-P2P",
+      "url": "https://www.skidrowreloaded.com/transport-fever-3-v40444-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Transport-Fever-3.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Quarantine Zone The Last Check v2.1.6.2773-P2P",
+      "url": "https://www.skidrowreloaded.com/quarantine-zone-the-last-check-v2-1-6-2773-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/01/Quarantine-Zone-The-Last-Check-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "RuneScape Dragonwilds v261625-P2P",
+      "url": "https://www.skidrowreloaded.com/runescape-dragonwilds-v261625-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/RuneScape-Dragonwilds.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Warhounds v1.0.3.3379-P2P",
+      "url": "https://www.skidrowreloaded.com/warhounds-v1-0-3-3379-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Warhounds.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Astro Bot v01.019.000-P2P",
+      "url": "https://www.skidrowreloaded.com/astro-bot-v01-019-000-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/ASTRO-BOT.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Crash Team Racing Nitro Fueled v1.21-P2P",
+      "url": "https://www.skidrowreloaded.com/crash-team-racing-nitro-fueled-v1-21-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Crash-Team-Racing-Nitro-Fueled.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Call of Duty 2 Big Red One-P2P",
+      "url": "https://www.skidrowreloaded.com/call-of-duty-2-big-red-one-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Call-of-Duty-2-Big-Red-One.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Saints Row-P2P",
+      "url": "https://www.skidrowreloaded.com/saints-row-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Saints-Row.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
+    {
+      "title": "Satisfactory v520140-P2P",
+      "url": "https://www.skidrowreloaded.com/satisfactory-v520140-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/09/Satisfactory-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:40:45+00:00"
+    },
     {
       "title": "REC REWIND-P2P",
       "url": "https://www.skidrowreloaded.com/rec-rewind-p2p/",
