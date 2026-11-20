@@ -1,17 +1,57 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-20T12:40:43+00:00",
-  "last_success_at": "2026-11-20T12:40:43+00:00",
+  "checked_at": "2026-11-20T12:45:47+00:00",
+  "last_success_at": "2026-11-20T12:45:47+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 91 conservés.",
+  "message": "9 articles trouvés ; 96 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: HTTPSConnectionPool(host='www.skidrowreloaded.com', port=443): Read timed out. (read timeout=16)"
   ],
   "items": [
+    {
+      "title": "Burning Sword Death Sun Early Access",
+      "url": "https://www.skidrowreloaded.com/burning-sword-death-sun-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Burning-Sword-Death-Sun.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T12:45:47+00:00"
+    },
+    {
+      "title": "13 Sentinels Aegis Rim-P2P",
+      "url": "https://www.skidrowreloaded.com/13-sentinels-aegis-rim-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/13-Sentinels-Aegis-Rim.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T12:45:47+00:00"
+    },
+    {
+      "title": "Trust Your Gut-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/trust-your-gut-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Trust-Your-Gut.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T12:45:47+00:00"
+    },
+    {
+      "title": "Engagement-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/engagement-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Engagement.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T12:45:47+00:00"
+    },
+    {
+      "title": "Three Kingdoms Cao Caos Chastity Defense-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/three-kingdoms-cao-caos-chastity-defense-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Three-Kingdoms-Cao-Caos-Chastity-Defense.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T12:45:47+00:00"
+    },
     {
       "title": "Defender Bros-TENOKE",
       "url": "https://www.skidrowreloaded.com/defender-bros-tenoke/",
