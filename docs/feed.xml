@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:05:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:10:43 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lord of Undead Early Access</title>
+      <link>https://www.skidrowreloaded.com/lord-of-undead-early-access/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/lord-of-undead-early-access/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Lord-of-Undead.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Lord-of-Undead.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>KORRIDOR-GoldBerg</title>
       <link>https://www.skidrowreloaded.com/korridor-goldberg/</link>
