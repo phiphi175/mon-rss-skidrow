@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-20T06:40:45+00:00",
-  "last_success_at": "2026-11-20T06:40:45+00:00",
+  "checked_at": "2026-11-20T06:45:40+00:00",
+  "last_success_at": "2026-11-20T06:45:40+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 86 conservés.",
+  "message": "9 articles trouvés ; 87 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "FATAL FURY City of the Wolves v3.4.1-P2P",
+      "url": "https://www.skidrowreloaded.com/fatal-fury-city-of-the-wolves-v3-4-1-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/08/FATAL-FURY-City-of-the-Wolves-pc-free-download.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-20T06:45:40+00:00"
+    },
     {
       "title": "Transport Fever 3 v40444-P2P",
       "url": "https://www.skidrowreloaded.com/transport-fever-3-v40444-p2p/",
