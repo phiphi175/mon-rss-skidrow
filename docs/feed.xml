@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 07:45:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:50:39 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dawn Apart-TENOKE</title>
+      <link>https://www.skidrowreloaded.com/dawn-apart-tenoke/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/dawn-apart-tenoke/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dawn-Apart.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dawn-Apart.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Blacksmith Master-TENOKE</title>
       <link>https://www.skidrowreloaded.com/blacksmith-master-tenoke/</link>
