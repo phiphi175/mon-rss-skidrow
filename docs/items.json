@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T03:35:41+00:00",
-  "last_success_at": "2026-11-21T03:35:41+00:00",
+  "checked_at": "2026-11-21T03:40:40+00:00",
+  "last_success_at": "2026-11-21T03:40:40+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 114 conservés.",
+  "message": "9 articles trouvés ; 115 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Disney Dreamlight Valley v1.26.2.6-P2P",
+      "url": "https://www.skidrowreloaded.com/disney-dreamlight-valley-v1-26-2-6-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/12/Disney-Dreamlight-Valley-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T03:40:40+00:00"
+    },
     {
       "title": "SCUM Deluxe Edition v1.3.6.2-P2P",
       "url": "https://www.skidrowreloaded.com/scum-deluxe-edition-v1-3-6-2-p2p/",
