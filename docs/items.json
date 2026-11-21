@@ -1,17 +1,49 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T01:55:45+00:00",
-  "last_success_at": "2026-11-21T01:55:45+00:00",
+  "checked_at": "2026-11-21T02:01:13+00:00",
+  "last_success_at": "2026-11-21T02:01:13+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 98 conservés.",
+  "message": "9 articles trouvés ; 102 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Graveyard Keeper 2 v1.012-P2P",
+      "url": "https://www.skidrowreloaded.com/graveyard-keeper-2-v-1-012-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Graveyard-Keeper-2.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:01:13+00:00"
+    },
+    {
+      "title": "Defender of the Crown The Legend Returns v1.0.16-P2P",
+      "url": "https://www.skidrowreloaded.com/defender-of-the-crown-the-legend-returns-v1-0-16-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Defender-of-the-Crown-nThe-Legend-Returns.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:01:13+00:00"
+    },
+    {
+      "title": "Deep Rock Galactic Survivor v1.2.1-P2P",
+      "url": "https://www.skidrowreloaded.com/deep-rock-galactic-survivor-v1-2-1-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Deep-Rock-Galactic-Survivor-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:01:13+00:00"
+    },
+    {
+      "title": "SpaceEngine v0.991.50.2165 Early Access",
+      "url": "https://www.skidrowreloaded.com/spaceengine-v0-991-50-2165-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2022/09/SpaceEngine-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:01:13+00:00"
+    },
     {
       "title": "Lord of Undead Early Access",
       "url": "https://www.skidrowreloaded.com/lord-of-undead-early-access/",
