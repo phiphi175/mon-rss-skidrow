@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T09:30:55+00:00",
-  "last_success_at": "2026-11-21T09:30:55+00:00",
+  "checked_at": "2026-11-21T09:35:31+00:00",
+  "last_success_at": "2026-11-21T09:35:31+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 116 conservés.",
+  "message": "9 articles trouvés ; 117 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Victoria 3 Grand Edition v1.15.2-P2P",
+      "url": "https://www.skidrowreloaded.com/victoria-3-grand-edition-v1-15-2-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Victoria-3.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T09:35:31+00:00"
+    },
     {
       "title": "Eastern Era Skyward Hearth-RUNE",
       "url": "https://www.skidrowreloaded.com/eastern-era-skyward-hearth-rune/",
