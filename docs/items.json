@@ -1,17 +1,89 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T02:01:13+00:00",
-  "last_success_at": "2026-11-21T02:01:13+00:00",
+  "checked_at": "2026-11-21T02:05:35+00:00",
+  "last_success_at": "2026-11-21T02:05:35+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 102 conservés.",
+  "message": "9 articles trouvés ; 111 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Rivage v1.3.5-P2P",
+      "url": "https://www.skidrowreloaded.com/rivage-v1-3-5-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Rivage.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "Escape Simulator 2 Apocalypse v22866r-P2P",
+      "url": "https://www.skidrowreloaded.com/escape-simulator-2-apocalypse-v22866r-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Escape-Simulator-2-Apocalypse-dlc.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "BlazBlue Entropy Effect v1.1.2.147452-P2P",
+      "url": "https://www.skidrowreloaded.com/blazblue-entropy-effect-v1-1-2-147452-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/02/BlazBlue-Entropy-Effect-X.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "September 7th v1.4-P2P",
+      "url": "https://www.skidrowreloaded.com/september-7th-v1-4-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/01/September-7th-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "Field of Glory Kingdoms v1.08.3-P2P",
+      "url": "https://www.skidrowreloaded.com/field-of-glory-kingdoms-v1-08-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/06/Field-of-Glory-Kingdoms-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "inFamous Second Son v1.07-P2P",
+      "url": "https://www.skidrowreloaded.com/infamous-second-son-v1-07-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/InFamous-Second-Son.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "Bleach Soul Resurreccion-P2P",
+      "url": "https://www.skidrowreloaded.com/bleach-soul-resurreccion-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Bleach-Soul-Resurreccion.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "Super Mario Bros Wonder-P2P",
+      "url": "https://www.skidrowreloaded.com/super-mario-bros-wonder-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Super-Mario-Bros-Wonder.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
+    {
+      "title": "Against the Storm v1.11.5-P2P",
+      "url": "https://www.skidrowreloaded.com/against-the-storm-v1-11-5-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/12/Against-the-Storm-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:05:35+00:00"
+    },
     {
       "title": "Graveyard Keeper 2 v1.012-P2P",
       "url": "https://www.skidrowreloaded.com/graveyard-keeper-2-v-1-012-p2p/",
