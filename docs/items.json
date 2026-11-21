@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T02:45:40+00:00",
-  "last_success_at": "2026-11-21T02:45:40+00:00",
+  "checked_at": "2026-11-21T02:50:46+00:00",
+  "last_success_at": "2026-11-21T02:50:46+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 111 conservés.",
+  "message": "9 articles trouvés ; 112 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Slime Rancher 2 v1.3.0-RUNE",
+      "url": "https://www.skidrowreloaded.com/slime-rancher-2-v1-3-0-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Slime-Rancher-2-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T02:50:46+00:00"
+    },
     {
       "title": "Rivage v1.3.5-P2P",
       "url": "https://www.skidrowreloaded.com/rivage-v1-3-5-p2p/",
