@@ -1,17 +1,81 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-21T12:55:31+00:00",
-  "last_success_at": "2026-11-21T12:55:31+00:00",
+  "checked_at": "2026-11-21T13:01:09+00:00",
+  "last_success_at": "2026-11-21T13:01:09+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 117 conservés.",
+  "message": "9 articles trouvés ; 125 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: HTTPSConnectionPool(host='www.skidrowreloaded.com', port=443): Read timed out. (read timeout=16)"
   ],
   "items": [
+    {
+      "title": "Keepsake County-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/keepsake-county-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Keepsake-County.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Warlords IV Heroes of Etheria-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/warlords-iv-heroes-of-etheria-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Warlords-IV-Heroes-of-Etheria.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Volvys Adventure Reslimed-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/volvys-adventure-reslimed-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Volvys-Adventure-Reslimed.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Rock Band Simulator-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/rock-band-simulator-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Rock-Band-Simulator.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Warpack-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/warpack-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Warpack.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Rocket Scrapyard-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/rocket-scrapyard-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Rocket-Scrapyard.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Theocracy-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/theocracy-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Theocracy.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
+    {
+      "title": "Soldiers at War-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/soldiers-at-war-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Soldiers-at-War.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-21T13:01:09+00:00"
+    },
     {
       "title": "Victoria 3 Grand Edition v1.15.2-P2P",
       "url": "https://www.skidrowreloaded.com/victoria-3-grand-edition-v1-15-2-p2p/",
