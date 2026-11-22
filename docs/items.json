@@ -1,18 +1,49 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-22T13:10:40+00:00",
-  "last_success_at": "2026-11-22T13:05:33+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-22T13:15:40+00:00",
+  "last_success_at": "2026-11-22T13:15:40+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 139 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "HTML non interrogé (robots.txt inaccessible : ReadTimeout)"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Hold the Dawn-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/hold-the-dawn-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Hold-the-Dawn.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-22T13:15:40+00:00"
+    },
+    {
+      "title": "Olympius-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/olympius-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Olympius.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-22T13:15:40+00:00"
+    },
+    {
+      "title": "Life and Shadow Celestial Cal Early Access",
+      "url": "https://www.skidrowreloaded.com/life-and-shadow-celestial-cal-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Life-and-Shadow-Celestial-Cal.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-22T13:15:40+00:00"
+    },
+    {
+      "title": "MUV-LUV GIRLS GARDEN Mellow Days-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/muv-luv-girls-garden-mellow-days-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/MUV-LUV-GIRLS-GARDEN-Mellow-Days.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-22T13:15:40+00:00"
+    },
     {
       "title": "iRacing Studios NASCAR 26 v20261119-P2P",
       "url": "https://www.skidrowreloaded.com/iracing-studios-nascar-26-v20261119-p2p/",
