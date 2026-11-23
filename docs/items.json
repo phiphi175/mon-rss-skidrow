@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-23T01:05:37+00:00",
-  "last_success_at": "2026-11-23T01:05:37+00:00",
+  "checked_at": "2026-11-23T01:10:43+00:00",
+  "last_success_at": "2026-11-23T01:10:43+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 149 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Phantom Blade Zero-VOICES38",
+      "url": "https://www.skidrowreloaded.com/phantom-blade-zero-voices38/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Phantom-Blade-Zero-pc.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T00:10:42+00:00"
+    },
     {
       "title": "ICARUS v3.0.37.160033-P2P",
       "url": "https://www.skidrowreloaded.com/icarus-v3-0-37-160033-p2p/",
@@ -83,14 +91,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2022/06/BeamNG-Drive-pc-free-download.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-23T01:05:37+00:00"
-    },
-    {
-      "title": "Phantom Blade Zero-VOICES38",
-      "url": "https://www.skidrowreloaded.com/phantom-blade-zero-voices38/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Phantom-Blade-Zero-pc.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-23T00:10:42+00:00"
     },
     {
       "title": "Hold the Dawn-GoldBerg",
