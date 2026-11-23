@@ -1,17 +1,89 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-23T01:01:09+00:00",
-  "last_success_at": "2026-11-23T01:01:09+00:00",
+  "checked_at": "2026-11-23T01:05:37+00:00",
+  "last_success_at": "2026-11-23T01:05:37+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 140 conservés.",
+  "message": "9 articles trouvés ; 149 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "ICARUS v3.0.37.160033-P2P",
+      "url": "https://www.skidrowreloaded.com/icarus-v3-0-37-160033-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2022/09/ICARUS-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "ZERO PARADES Directors Cut v1.1.40910-P2P",
+      "url": "https://www.skidrowreloaded.com/zero-parades-directors-cut-v1-1-40910-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/ZERO-PARADES-Directors-Cut.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Sacred 2 Remaster v22247-P2P",
+      "url": "https://www.skidrowreloaded.com/sacred-2-remaster-v22247-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Sacred-2-Remaster.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Frosthaven v1.0.34595-P2P",
+      "url": "https://www.skidrowreloaded.com/frosthaven-v1-0-34595-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Frosthaven.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Dolls Nest v1.3.2-P2P",
+      "url": "https://www.skidrowreloaded.com/dolls-nest-v1-3-2-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/04/Dolls-Nest-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Crusader Kings III v1.21.0.3-P2P",
+      "url": "https://www.skidrowreloaded.com/crusader-kings-iii-v1-21-0-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2022/09/Crusader-Kings-III-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Crimson Moon v1.1.1.175390-P2P",
+      "url": "https://www.skidrowreloaded.com/crimson-moon-v1-1-1-175390-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Crimson-Moon.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "Cairn v1.1.630s-P2P",
+      "url": "https://www.skidrowreloaded.com/cairn-v1-1-630s-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/01/Cairn-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
+    {
+      "title": "BeamNG Drive v0.40.6.0.312033 Early Access",
+      "url": "https://www.skidrowreloaded.com/beamng-drive-v0-40-6-0-312033-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2022/06/BeamNG-Drive-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-23T01:05:37+00:00"
+    },
     {
       "title": "Phantom Blade Zero-VOICES38",
       "url": "https://www.skidrowreloaded.com/phantom-blade-zero-voices38/",
