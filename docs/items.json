@@ -1,17 +1,33 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-24T01:31:05+00:00",
-  "last_success_at": "2026-11-24T01:31:05+00:00",
+  "checked_at": "2026-11-24T01:35:34+00:00",
+  "last_success_at": "2026-11-24T01:35:34+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 158 conservés.",
+  "message": "9 articles trouvés ; 160 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Corsair Cove v1.8.0.250682-P2P",
+      "url": "https://www.skidrowreloaded.com/corsair-cove-v1-8-0-250682-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/Corsair-Cove.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:35:34+00:00"
+    },
+    {
+      "title": "Workers and Resources SR Space Program-RUNE",
+      "url": "https://www.skidrowreloaded.com/workers-and-resources-soviet-republic-space-program-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/12/Workers-And-Resources-Soviet-Republic.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:35:34+00:00"
+    },
     {
       "title": "AI War 2 Forge Of Titans-RUNE",
       "url": "https://www.skidrowreloaded.com/ai-war-2-forge-of-titans-rune/",
