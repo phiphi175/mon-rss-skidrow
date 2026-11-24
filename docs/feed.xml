@@ -5,9 +5,23 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 01:55:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 02:01:09 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valor Mortis v20261123-P2P</title>
+      <link>https://www.skidrowreloaded.com/valor-mortis-v20261123-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/valor-mortis-v20261123-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Valor-Mortis.png" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Valor-Mortis.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Factorio v2.1.25-P2P</title>
+      <link>https://www.skidrowreloaded.com/factorio-v2-1-25-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/factorio-v2-1-25-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2023/10/Factorio-pc-free-download.png" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2023/10/Factorio-pc-free-download.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Corsair Cove v1.8.0.250682-P2P</title>
       <link>https://www.skidrowreloaded.com/corsair-cove-v1-8-0-250682-p2p/</link>
