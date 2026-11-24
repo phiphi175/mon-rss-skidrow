@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-24T16:50:41+00:00",
-  "last_success_at": "2026-11-24T16:50:41+00:00",
+  "checked_at": "2026-11-24T16:55:35+00:00",
+  "last_success_at": "2026-11-24T16:55:35+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 166 conservés.",
+  "message": "9 articles trouvés ; 167 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Cities Skylines Estates and Escapes-RUNE",
+      "url": "https://www.skidrowreloaded.com/cities-skylines-estates-and-escapes-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Cities-Skylines-Estates-and-Escapes.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T16:55:35+00:00"
+    },
     {
       "title": "White Knuckle The Core Early Access",
       "url": "https://www.skidrowreloaded.com/white-knuckle-the-core-early-access/",

@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 16:50:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 16:55:35 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cities Skylines Estates and Escapes-RUNE</title>
+      <link>https://www.skidrowreloaded.com/cities-skylines-estates-and-escapes-rune/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/cities-skylines-estates-and-escapes-rune/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Cities-Skylines-Estates-and-Escapes.png" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Cities-Skylines-Estates-and-Escapes.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>White Knuckle The Core Early Access</title>
       <link>https://www.skidrowreloaded.com/white-knuckle-the-core-early-access/</link>
