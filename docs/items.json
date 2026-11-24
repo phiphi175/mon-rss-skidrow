@@ -1,17 +1,49 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-24T01:25:33+00:00",
-  "last_success_at": "2026-11-24T01:25:33+00:00",
+  "checked_at": "2026-11-24T01:31:05+00:00",
+  "last_success_at": "2026-11-24T01:31:05+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 154 conservés.",
+  "message": "9 articles trouvés ; 158 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "AI War 2 Forge Of Titans-RUNE",
+      "url": "https://www.skidrowreloaded.com/ai-war-2-forge-of-titans-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2019/03/AI-War-2.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:31:05+00:00"
+    },
+    {
+      "title": "Blitzkrieg 3-P2P",
+      "url": "https://www.skidrowreloaded.com/blitzkrieg-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/07/Blitzkrieg-3-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:31:05+00:00"
+    },
+    {
+      "title": "WE ARE FOOTBALL 2027-P2P",
+      "url": "https://www.skidrowreloaded.com/we-are-football-2027-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/WE-ARE-FOOTBALL-2027.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:31:05+00:00"
+    },
+    {
+      "title": "The Legend of Zelda Links Awakening v1.1.0-P2P",
+      "url": "https://www.skidrowreloaded.com/the-legend-of-zelda-links-awakening-v1-1-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Legend-of-Zelda-Links-Awakening.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T01:31:05+00:00"
+    },
     {
       "title": "Stellaris Willpower-RUNE",
       "url": "https://www.skidrowreloaded.com/stellaris-willpower-rune/",
