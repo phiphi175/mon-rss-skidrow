@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-24T02:20:43+00:00",
-  "last_success_at": "2026-11-24T02:20:43+00:00",
+  "checked_at": "2026-11-24T02:25:31+00:00",
+  "last_success_at": "2026-11-24T02:25:31+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 162 conservés.",
+  "message": "9 articles trouvés ; 163 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Serious Sam Fusion-RUNE",
+      "url": "https://www.skidrowreloaded.com/serious-sam-fusion-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Serious-Sam-Fusion.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T02:25:31+00:00"
+    },
     {
       "title": "Valor Mortis v20261123-P2P",
       "url": "https://www.skidrowreloaded.com/valor-mortis-v20261123-p2p/",
