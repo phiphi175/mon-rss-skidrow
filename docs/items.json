@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-24T17:10:44+00:00",
-  "last_success_at": "2026-11-24T17:10:44+00:00",
+  "checked_at": "2026-11-24T17:15:52+00:00",
+  "last_success_at": "2026-11-24T17:15:52+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 168 conservés.",
+  "message": "9 articles trouvés ; 169 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Taeneras Offer-FLT",
+      "url": "https://www.skidrowreloaded.com/taeneras-offer-flt/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Taeneras-Offer.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-24T17:15:52+00:00"
+    },
     {
       "title": "8AM The Graveyard-DOGE",
       "url": "https://www.skidrowreloaded.com/8am-the-graveyard-doge/",
