@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-25T02:45:40+00:00",
-  "last_success_at": "2026-11-25T02:45:40+00:00",
+  "checked_at": "2026-11-25T02:50:39+00:00",
+  "last_success_at": "2026-11-25T02:50:39+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Aliens Fireteam Elite 2 v1.0.6-P2P",
+      "url": "https://www.skidrowreloaded.com/aliens-fireteam-elite-2-v1-0-6-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Aliens-Fireteam-Elite-2.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T02:50:39+00:00"
+    },
     {
       "title": "Dinoblade v20261106-P2P",
       "url": "https://www.skidrowreloaded.com/dinoblade-v20261106-p2p/",
@@ -1441,14 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/formula-legends-v1-7-5-p2p/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Formula-Legends-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T15:13:59+00:00"
-    },
-    {
-      "title": "ENDLESS Legend 2 v1.0.232-P2P",
-      "url": "https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/ENDLESS-Legend-2.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-16T15:13:59+00:00"
     }

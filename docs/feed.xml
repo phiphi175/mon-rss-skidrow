@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 02:45:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 02:50:39 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aliens Fireteam Elite 2 v1.0.6-P2P</title>
+      <link>https://www.skidrowreloaded.com/aliens-fireteam-elite-2-v1-0-6-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/aliens-fireteam-elite-2-v1-0-6-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Aliens-Fireteam-Elite-2.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Aliens-Fireteam-Elite-2.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dinoblade v20261106-P2P</title>
       <link>https://www.skidrowreloaded.com/dinoblade-v20261106-p2p/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/formula-legends-v1-7-5-p2p/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Formula-Legends-pc-free-download.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Formula-Legends-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ENDLESS Legend 2 v1.0.232-P2P</title>
-      <link>https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/endless-legend-2-v1-0-232-p2p/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/ENDLESS-Legend-2.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/ENDLESS-Legend-2.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
