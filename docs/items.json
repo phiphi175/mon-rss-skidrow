@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-25T13:20:43+00:00",
-  "last_success_at": "2026-11-25T13:20:43+00:00",
+  "checked_at": "2026-11-25T13:25:32+00:00",
+  "last_success_at": "2026-11-25T13:25:32+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,62 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Rent Out Together-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/rent-out-together-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Rent-Out-Together.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "PC Store Together-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/pc-store-together-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/PC-Store-Together.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "NODE PROTOCOL Early Access",
+      "url": "https://www.skidrowreloaded.com/node-protocol-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/NODE-PROTOCOL.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "No Asteroids-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/no-asteroids-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/No-Asteroids.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "C.L.T Early Access",
+      "url": "https://www.skidrowreloaded.com/c-l-t-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/C.L.T.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "Jurassic Architect-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/jurassic-architect-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Jurassic-Architect.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
+    {
+      "title": "TOUCHLINE CAPITAL Early Access",
+      "url": "https://www.skidrowreloaded.com/touchline-capital-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TOUCHLINE-CAPITAL.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T13:25:32+00:00"
+    },
     {
       "title": "Storage Hunter Simulator No Refunds Edition-TENOKE",
       "url": "https://www.skidrowreloaded.com/storage-hunter-simulator-no-refunds-edition-tenoke/",
@@ -1395,62 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Way-of-the-Hunter-2.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Golf 5 Max-P2P",
-      "url": "https://www.skidrowreloaded.com/golf-5-max-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Golf-5-Max.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T22:50:44+00:00"
-    },
-    {
-      "title": "Poop Killer The Golden Fart-P2P",
-      "url": "https://www.skidrowreloaded.com/poop-killer-the-golden-fart-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Poop-Killer-The-Golden-Fart-1.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T22:50:44+00:00"
-    },
-    {
-      "title": "The Citadel Project Early Access",
-      "url": "https://www.skidrowreloaded.com/the-citadel-project-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Citadel-Project.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T17:50:36+00:00"
-    },
-    {
-      "title": "Backseat Champions-P2P",
-      "url": "https://www.skidrowreloaded.com/backseat-champions-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Backseat-Champions.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T17:50:36+00:00"
-    },
-    {
-      "title": "Moomin Midsummer Madness-P2P",
-      "url": "https://www.skidrowreloaded.com/moomin-midsummer-madness-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Moomin-Midsummer-Madness.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T15:13:59+00:00"
-    },
-    {
-      "title": "Just Farm-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/just-farm-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Just-Farm.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T15:13:59+00:00"
-    },
-    {
-      "title": "Night Crew Early Access",
-      "url": "https://www.skidrowreloaded.com/night-crew-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Night-Crew.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T15:13:59+00:00"
     }
   ]
 }
