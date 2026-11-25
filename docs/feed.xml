@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 13:55:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:01:12 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moonfrost Early Access</title>
+      <link>https://www.skidrowreloaded.com/moonfrost-early-access/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/moonfrost-early-access/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Moonfrost.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Moonfrost.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rent Out Together-GoldBerg</title>
       <link>https://www.skidrowreloaded.com/rent-out-together-goldberg/</link>
@@ -37,13 +44,6 @@
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/No-Asteroids.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>C.L.T Early Access</title>
-      <link>https://www.skidrowreloaded.com/c-l-t-early-access/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/c-l-t-early-access/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/C.L.T.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/C.L.T.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Jurassic Architect-GoldBerg</title>
       <link>https://www.skidrowreloaded.com/jurassic-architect-goldberg/</link>
       <guid isPermaLink="true">https://www.skidrowreloaded.com/jurassic-architect-goldberg/</guid>
@@ -56,6 +56,13 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/touchline-capital-early-access/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TOUCHLINE-CAPITAL.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TOUCHLINE-CAPITAL.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C.L.T Early Access</title>
+      <link>https://www.skidrowreloaded.com/c-l-t-early-access/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/c-l-t-early-access/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/C.L.T.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/C.L.T.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Storage Hunter Simulator No Refunds Edition-TENOKE</title>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/warhammer-40000-boltgun-2-v1-4-0-0-p2p/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Warhammer-40000-Boltgun-2.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Warhammer-40000-Boltgun-2.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Way of the Hunter 2 v1.5.0-P2P</title>
-      <link>https://www.skidrowreloaded.com/way-of-the-hunter-2-v1-5-0-p2p/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/way-of-the-hunter-2-v1-5-0-p2p/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Way-of-the-Hunter-2.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Way-of-the-Hunter-2.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
