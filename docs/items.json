@@ -1,17 +1,89 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-25T01:25:35+00:00",
-  "last_success_at": "2026-11-25T01:25:35+00:00",
+  "checked_at": "2026-11-25T01:30:54+00:00",
+  "last_success_at": "2026-11-25T01:30:54+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
-  "message": "9 articles trouvés ; 169 conservés.",
+  "message": "9 articles trouvés ; 178 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "DOOM The Dark Ages v20261123-P2P",
+      "url": "https://www.skidrowreloaded.com/doom-the-dark-ages-v20261123-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/DOOM-The-Dark-Ages.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "False Hero v26.10.3-P2P",
+      "url": "https://www.skidrowreloaded.com/false-hero-v26-10-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/False-Hero.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Alaska Gold Fever v2026.11.20.01-P2P",
+      "url": "https://www.skidrowreloaded.com/alaska-gold-fever-v2026-11-20-01-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/04/Alaska-Gold-Fever.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Well Dweller v1.0.4.0-P2P",
+      "url": "https://www.skidrowreloaded.com/well-dweller-v1-0-4-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Well-Dweller.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Robert Ludlums The Bourne Conspiracy-P2P",
+      "url": "https://www.skidrowreloaded.com/robert-ludlums-the-bourne-conspiracy-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Robert-Ludlums-The-Bourne-Conspiracy.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Mars Attracts v1.4-P2P",
+      "url": "https://www.skidrowreloaded.com/mars-attracts-v1-4-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Mars-Attracts.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Lawn Mowing Simulator 2 v1.1.1.1423273-P2P",
+      "url": "https://www.skidrowreloaded.com/lawn-mowing-simulator-2-v1-1-1-1423273-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Lawn-Mowing-Simulator-2.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Fallen Tear The Ascension v1.0.4-P2P",
+      "url": "https://www.skidrowreloaded.com/fallen-tear-the-ascension-v1-0-4-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/03/Fallen-Tear-The-Ascension.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
+    {
+      "title": "Back to the Dawn v2.0.0.34-P2P",
+      "url": "https://www.skidrowreloaded.com/back-to-the-dawn-v2-0-0-34-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/11/Back-to-the-Dawn-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T01:30:54+00:00"
+    },
     {
       "title": "Taeneras Offer-FLT",
       "url": "https://www.skidrowreloaded.com/taeneras-offer-flt/",
