@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-25T05:20:41+00:00",
-  "last_success_at": "2026-11-25T05:20:41+00:00",
+  "checked_at": "2026-11-25T05:25:38+00:00",
+  "last_success_at": "2026-11-25T05:25:38+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Symphony of War The Nephilim Saga Hold the Line-TENOKE",
+      "url": "https://www.skidrowreloaded.com/symphony-of-war-the-nephilim-saga-hold-the-line-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Symphony-of-War-The-Nephilim-Saga-Hold-the-Line.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-25T05:25:38+00:00"
+    },
     {
       "title": "FailRooms-TENOKE",
       "url": "https://www.skidrowreloaded.com/failrooms-tenoke/",
@@ -1441,14 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/ward-off-evil-p2p/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ward-Off-Evil.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-16T15:13:59+00:00"
-    },
-    {
-      "title": "Water TD-P2P",
-      "url": "https://www.skidrowreloaded.com/water-td-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Water-TD.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-16T15:13:59+00:00"
     }

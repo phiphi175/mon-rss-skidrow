@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 05:20:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:25:38 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symphony of War The Nephilim Saga Hold the Line-TENOKE</title>
+      <link>https://www.skidrowreloaded.com/symphony-of-war-the-nephilim-saga-hold-the-line-tenoke/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/symphony-of-war-the-nephilim-saga-hold-the-line-tenoke/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Symphony-of-War-The-Nephilim-Saga-Hold-the-Line.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Symphony-of-War-The-Nephilim-Saga-Hold-the-Line.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FailRooms-TENOKE</title>
       <link>https://www.skidrowreloaded.com/failrooms-tenoke/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/ward-off-evil-p2p/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ward-Off-Evil.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ward-Off-Evil.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Water TD-P2P</title>
-      <link>https://www.skidrowreloaded.com/water-td-p2p/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/water-td-p2p/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Water-TD.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Water-TD.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
