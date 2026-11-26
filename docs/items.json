@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T00:50:41+00:00",
-  "last_success_at": "2026-11-26T00:50:41+00:00",
+  "checked_at": "2026-11-26T00:55:37+00:00",
+  "last_success_at": "2026-11-26T00:55:37+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Kernel Hearts v1.0.18-P2P",
+      "url": "https://www.skidrowreloaded.com/kernel-hearts-v1-0-18-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Kernel-Hearts.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:55:37+00:00"
+    },
     {
       "title": "Football Manager 27 v27.1.1 HYPERVISOR-P2P",
       "url": "https://www.skidrowreloaded.com/football-manager-27-v27-1-1-hypervisor-p2p/",
@@ -1443,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Deep-Rock-Galactic-Survivor-pc-free-download.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-17T12:50:53+00:00"
-    },
-    {
-      "title": "Black Mesa Anomalous Improvements-RUNE",
-      "url": "https://www.skidrowreloaded.com/black-mesa-anomalous-improvements-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/09/Black-Mesa-Definitive-Edition-pc-free-download.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:40:42+00:00"
     }
   ]
 }

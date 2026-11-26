@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:50:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:55:37 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel Hearts v1.0.18-P2P</title>
+      <link>https://www.skidrowreloaded.com/kernel-hearts-v1-0-18-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/kernel-hearts-v1-0-18-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Kernel-Hearts.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Kernel-Hearts.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Football Manager 27 v27.1.1 HYPERVISOR-P2P</title>
       <link>https://www.skidrowreloaded.com/football-manager-27-v27-1-1-hypervisor-p2p/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/deep-rock-galactic-survivor-knockout-rune/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Deep-Rock-Galactic-Survivor-pc-free-download.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Deep-Rock-Galactic-Survivor-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Black Mesa Anomalous Improvements-RUNE</title>
-      <link>https://www.skidrowreloaded.com/black-mesa-anomalous-improvements-rune/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/black-mesa-anomalous-improvements-rune/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2023/09/Black-Mesa-Definitive-Edition-pc-free-download.png" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2023/09/Black-Mesa-Definitive-Edition-pc-free-download.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
