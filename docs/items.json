@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T03:50:42+00:00",
-  "last_success_at": "2026-11-26T03:50:42+00:00",
+  "checked_at": "2026-11-26T03:55:33+00:00",
+  "last_success_at": "2026-11-26T03:55:33+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Fist of the North Star Lost Paradise-P2P",
+      "url": "https://www.skidrowreloaded.com/fist-of-the-north-star-lost-paradise-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Fist-of-the-North-Star-Lost-Paradise.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T03:55:33+00:00"
+    },
     {
       "title": "Drakengard 3-P2P",
       "url": "https://www.skidrowreloaded.com/drakengard-3-p2p/",
@@ -1441,14 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/football-referee-life-simulator-26-early-access/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T15:20:46+00:00"
-    },
-    {
-      "title": "Net Worthless-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/net-worthless-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Net-Worthless.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-17T15:20:46+00:00"
     }

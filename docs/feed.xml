@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 03:50:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:55:33 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fist of the North Star Lost Paradise-P2P</title>
+      <link>https://www.skidrowreloaded.com/fist-of-the-north-star-lost-paradise-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/fist-of-the-north-star-lost-paradise-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Fist-of-the-North-Star-Lost-Paradise.png" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Fist-of-the-North-Star-Lost-Paradise.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Drakengard 3-P2P</title>
       <link>https://www.skidrowreloaded.com/drakengard-3-p2p/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/football-referee-life-simulator-26-early-access/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Net Worthless-GoldBerg</title>
-      <link>https://www.skidrowreloaded.com/net-worthless-goldberg/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/net-worthless-goldberg/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Net-Worthless.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Net-Worthless.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
