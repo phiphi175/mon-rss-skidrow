@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T03:05:44+00:00",
-  "last_success_at": "2026-11-26T03:05:44+00:00",
+  "checked_at": "2026-11-26T03:10:52+00:00",
+  "last_success_at": "2026-11-26T03:10:52+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,30 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Drakengard 3-P2P",
+      "url": "https://www.skidrowreloaded.com/drakengard-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Drakengard-3.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T03:10:52+00:00"
+    },
+    {
+      "title": "Hotel Architect Poolside Paradise-TENOKE",
+      "url": "https://www.skidrowreloaded.com/hotel-architect-poolside-paradise-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/05/Hotel-Architect.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T03:10:52+00:00"
+    },
+    {
+      "title": "Clive Barkers Hellraiser Revival v1.3.0.228270-P2P",
+      "url": "https://www.skidrowreloaded.com/clive-barkers-hellraiser-revival-v1-3-0-228270-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Clive-Barkers-Hellraiser-Revival.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T03:10:52+00:00"
+    },
     {
       "title": "Kernel Hearts v1.0.18-P2P",
       "url": "https://www.skidrowreloaded.com/kernel-hearts-v1-0-18-p2p/",
@@ -1427,30 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Net-Worthless.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-17T15:20:46+00:00"
-    },
-    {
-      "title": "Dungeonbound-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/dungeonbound-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dungeonbound.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T15:20:46+00:00"
-    },
-    {
-      "title": "Here Comes the Horde-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/here-comes-the-horde-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Here-Comes-the-Horde.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T15:20:46+00:00"
-    },
-    {
-      "title": "Deep Rock Galactic Survivor Knockout-RUNE",
-      "url": "https://www.skidrowreloaded.com/deep-rock-galactic-survivor-knockout-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Deep-Rock-Galactic-Survivor-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T12:50:53+00:00"
     }
   ]
 }
