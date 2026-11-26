@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 05:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 05:25:33 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diablo 3 Ultimate Evil Edition v1.47-P2P</title>
+      <link>https://www.skidrowreloaded.com/diablo-3-ultimate-evil-edition-v1-47-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/diablo-3-ultimate-evil-edition-v1-47-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Diablo-III-Reaper-of-Souls.png" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Diablo-III-Reaper-of-Souls.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fist of the North Star Lost Paradise-P2P</title>
       <link>https://www.skidrowreloaded.com/fist-of-the-north-star-lost-paradise-p2p/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/gold-mining-simulator-definitive-edition-rune/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Gold-Mining-Simulator-Definitive-Edition.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Gold-Mining-Simulator-Definitive-Edition.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Football Referee Life Simulator 26 Early Access</title>
-      <link>https://www.skidrowreloaded.com/football-referee-life-simulator-26-early-access/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/football-referee-life-simulator-26-early-access/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Referee-Life-Simulator-26.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
