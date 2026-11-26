@@ -5,7 +5,7 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 16:45:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:50:47 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,6 +21,13 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/appulse-rune/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Appulse.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Appulse.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Business Simulator 2026-GoldBerg</title>
+      <link>https://www.skidrowreloaded.com/business-simulator-2026-goldberg/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/business-simulator-2026-goldberg/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/01/Business-Simulator-2026.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/01/Business-Simulator-2026.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Double Whammy Early Access</title>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/ashes-of-the-singularity-ii-v1-0-2-210-p2p/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ashes-of-the-Singularity-II.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ashes-of-the-Singularity-II.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1666 Amsterdam v0.2.3.161754.106 Early Access</title>
-      <link>https://www.skidrowreloaded.com/1666-amsterdam-v0-2-3-161754-106-early-access/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/1666-amsterdam-v0-2-3-161754-106-early-access/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/08/1666-Amsterdam.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/08/1666-Amsterdam.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,16 +1,15 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T16:45:46+00:00",
-  "last_success_at": "2026-11-26T16:31:00+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-26T16:50:47+00:00",
+  "last_success_at": "2026-11-26T16:50:47+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
     {
@@ -28,6 +27,14 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Appulse.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-26T15:55:35+00:00"
+    },
+    {
+      "title": "Business Simulator 2026-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/business-simulator-2026-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/01/Business-Simulator-2026.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T16:50:47+00:00"
     },
     {
       "title": "Double Whammy Early Access",
@@ -1442,14 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/ashes-of-the-singularity-ii-v1-0-2-210-p2p/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ashes-of-the-Singularity-II.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "1666 Amsterdam v0.2.3.161754.106 Early Access",
-      "url": "https://www.skidrowreloaded.com/1666-amsterdam-v0-2-3-161754-106-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/08/1666-Amsterdam.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T08:01:04+00:00"
     }
