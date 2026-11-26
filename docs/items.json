@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T00:45:40+00:00",
-  "last_success_at": "2026-11-26T00:45:40+00:00",
+  "checked_at": "2026-11-26T00:50:41+00:00",
+  "last_success_at": "2026-11-26T00:50:41+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,62 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Football Manager 27 v27.1.1 HYPERVISOR-P2P",
+      "url": "https://www.skidrowreloaded.com/football-manager-27-v27-1-1-hypervisor-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Football-Manager-27.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "Spirit City Lofi Sessions v2.6.0-P2P",
+      "url": "https://www.skidrowreloaded.com/spirit-city-lofi-sessions-v2-6-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/04/Spirit-City-Lofi-Sessions-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "The Greatest Penguin Heist of All Time v20261122-P2P",
+      "url": "https://www.skidrowreloaded.com/the-greatest-penguin-heist-of-all-time-v20261122-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/06/The-Greatest-Penguin-Heist-of-All-Time.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "Infinitevania v1.0.5-P2P",
+      "url": "https://www.skidrowreloaded.com/infinitevania-v1-0-5-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/Infinitevania.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "Heaven Does Not Respond v2173-P2P",
+      "url": "https://www.skidrowreloaded.com/heaven-does-not-respond-v2173-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/02/Heaven-Does-Not-Respond.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "ASPIS v20261124-P2P",
+      "url": "https://www.skidrowreloaded.com/aspis-v20261124-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/ASPIS.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
+    {
+      "title": "Wilderdark v20261125-P2P",
+      "url": "https://www.skidrowreloaded.com/wilderdark-v20261125-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wilderdark.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T00:50:41+00:00"
+    },
     {
       "title": "Last Chickenburg Early Access",
       "url": "https://www.skidrowreloaded.com/last-chickenburg-early-access/",
@@ -1395,62 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/09/Black-Mesa-Definitive-Edition-pc-free-download.png",
       "image_checked_at": "",
       "first_seen": "2026-11-17T08:40:42+00:00"
-    },
-    {
-      "title": "Obey Me Sinners Choice Lucifer-TENOKE",
-      "url": "https://www.skidrowreloaded.com/obey-me-sinners-choice-lucifer-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Obey-Me-Sinners-Choice-Lucifer.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Hillthorn-TENOKE",
-      "url": "https://www.skidrowreloaded.com/hillthorn-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Hillthorn.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Jyoka Castle town-TENOKE",
-      "url": "https://www.skidrowreloaded.com/jyoka-castle-town-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Jyoka-Castle-town.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Trees Hate You-TENOKE",
-      "url": "https://www.skidrowreloaded.com/trees-hate-you-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Trees-Hate-You.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Ancient Warfare The Han Dynasty-TENOKE",
-      "url": "https://www.skidrowreloaded.com/ancient-warfare-the-han-dynasty-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ancient-Warfare-The-Han-Dynasty.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "Project Gotham Racing 4-P2P",
-      "url": "https://www.skidrowreloaded.com/project-gotham-racing-4-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Project-Gotham-Racing-4.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
-    },
-    {
-      "title": "DOOM The Dark Ages v20261116-P2P",
-      "url": "https://www.skidrowreloaded.com/doom-the-dark-ages-v20261116-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/DOOM-The-Dark-Ages.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T08:01:04+00:00"
     }
   ]
 }
