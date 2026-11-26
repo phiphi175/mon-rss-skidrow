@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 17:45:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 17:50:44 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRIME II A Final Coda-RUNE</title>
+      <link>https://www.skidrowreloaded.com/grime-ii-a-final-coda-rune/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/grime-ii-a-final-coda-rune/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/03/GRIME-II.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/03/GRIME-II.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Company of Heroes 3 Operation Torch-RUNE</title>
       <link>https://www.skidrowreloaded.com/company-of-heroes-3-operation-torch-rune/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/re2-i-rise-alone-goldberg/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Re2-I-Rise-Alone.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Re2-I-Rise-Alone.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Terra Invicta v1.0.65-P2P</title>
-      <link>https://www.skidrowreloaded.com/terra-invicta-v1-0-65-p2p/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/terra-invicta-v1-0-65-p2p/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2023/07/Terra-Invicta-pc-free-download.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2023/07/Terra-Invicta-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

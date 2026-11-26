@@ -1,18 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T17:45:51+00:00",
-  "last_success_at": "2026-11-26T17:40:42+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-26T17:50:44+00:00",
+  "last_success_at": "2026-11-26T17:50:44+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML non interrogé (robots.txt : HTTP 415)"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "GRIME II A Final Coda-RUNE",
+      "url": "https://www.skidrowreloaded.com/grime-ii-a-final-coda-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/03/GRIME-II.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T17:50:44+00:00"
+    },
     {
       "title": "Company of Heroes 3 Operation Torch-RUNE",
       "url": "https://www.skidrowreloaded.com/company-of-heroes-3-operation-torch-rune/",
@@ -1444,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Re2-I-Rise-Alone.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T10:40:42+00:00"
-    },
-    {
-      "title": "Terra Invicta v1.0.65-P2P",
-      "url": "https://www.skidrowreloaded.com/terra-invicta-v1-0-65-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/07/Terra-Invicta-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
     }
   ]
 }
