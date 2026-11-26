@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T17:25:35+00:00",
-  "last_success_at": "2026-11-26T17:25:35+00:00",
+  "checked_at": "2026-11-26T17:30:57+00:00",
+  "last_success_at": "2026-11-26T17:30:57+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -19,6 +19,30 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Company-of-Heroes-3-Operation-Torch.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-26T16:01:16+00:00"
+    },
+    {
+      "title": "Rekindled Cozy Tavern Life-P2P",
+      "url": "https://www.skidrowreloaded.com/rekindled-cozy-tavern-life-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Rekindled-Cozy-Tavern-Life.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T17:30:57+00:00"
+    },
+    {
+      "title": "Geo Political Simulator 2027 Edition-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/geo-political-simulator-2027-edition-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Geo-Political-Simulator-2027-Edition.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T17:30:57+00:00"
+    },
+    {
+      "title": "Barbie Rewind-P2P",
+      "url": "https://www.skidrowreloaded.com/barbie-rewind-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Barbie-Rewind.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T17:30:57+00:00"
     },
     {
       "title": "Appulse-RUNE",
@@ -1425,30 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/terra-invicta-v1-0-65-p2p/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2023/07/Terra-Invicta-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "GROUND BRANCH v1.1.0.22689-P2P",
-      "url": "https://www.skidrowreloaded.com/ground-branch-v1-1-0-22689-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/GROUND-BRANCH.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "Conan Exiles Enhanced v3.1.1-P2P",
-      "url": "https://www.skidrowreloaded.com/conan-exiles-enhanced-v3-1-1-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/05/Conan-Exiles-Enhanced.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "Ashes of the Singularity II v1.0.2.210-P2P",
-      "url": "https://www.skidrowreloaded.com/ashes-of-the-singularity-ii-v1-0-2-210-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Ashes-of-the-Singularity-II.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T08:01:04+00:00"
     }
