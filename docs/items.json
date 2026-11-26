@@ -1,18 +1,49 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-26T15:50:49+00:00",
-  "last_success_at": "2026-11-26T15:35:35+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-26T15:55:35+00:00",
+  "last_success_at": "2026-11-26T15:55:35+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Appulse-RUNE",
+      "url": "https://www.skidrowreloaded.com/appulse-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Appulse.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T15:55:35+00:00"
+    },
+    {
+      "title": "Double Whammy Early Access",
+      "url": "https://www.skidrowreloaded.com/double-whammy-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Double-Whammy.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T15:55:35+00:00"
+    },
+    {
+      "title": "The Cozy Funemployment-P2P",
+      "url": "https://www.skidrowreloaded.com/the-cozy-funemployment-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Cozy-Funemployment-1.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T15:55:35+00:00"
+    },
+    {
+      "title": "Eletta-P2P",
+      "url": "https://www.skidrowreloaded.com/eletta-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Eletta.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-26T15:55:35+00:00"
+    },
     {
       "title": "Diablo 3 Ultimate Evil Edition v1.47-P2P",
       "url": "https://www.skidrowreloaded.com/diablo-3-ultimate-evil-edition-v1-47-p2p/",
@@ -1420,38 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/inFAMOUS-First-Light.png",
       "image_checked_at": "",
       "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "Crusader Kings III Silk and Silver-RUNE",
-      "url": "https://www.skidrowreloaded.com/crusader-kings-iii-silk-and-silver-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Crusader-Kings-III-Silk-and-Silver-pc.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T17:30:54+00:00"
-    },
-    {
-      "title": "Rangers Path National Park Simulator-RUNE",
-      "url": "https://www.skidrowreloaded.com/rangers-path-national-park-simulator-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Rangers-Path-National-Park-Simulator.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T16:55:33+00:00"
-    },
-    {
-      "title": "The Vast White-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/the-vast-white-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-Vast-White.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T16:10:43+00:00"
-    },
-    {
-      "title": "Gold Mining Simulator Definitive Edition-RUNE",
-      "url": "https://www.skidrowreloaded.com/gold-mining-simulator-definitive-edition-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Gold-Mining-Simulator-Definitive-Edition.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-17T15:20:46+00:00"
     }
   ]
 }
