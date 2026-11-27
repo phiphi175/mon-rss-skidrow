@@ -1,7 +1,7 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T10:01:10+00:00",
+  "checked_at": "2026-11-27T10:05:39+00:00",
   "last_success_at": "2026-11-27T09:45:49+00:00",
   "status": "erreur",
   "source_type": "",
@@ -10,7 +10,7 @@
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML non interrogé (robots.txt : HTTP 415)"
+    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
   ],
   "items": [
     {
