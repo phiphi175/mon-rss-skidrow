@@ -1,18 +1,73 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T00:50:51+00:00",
-  "last_success_at": "2026-11-27T00:40:43+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T00:55:36+00:00",
+  "last_success_at": "2026-11-27T00:55:36+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Pestilence-P2P",
+      "url": "https://www.skidrowreloaded.com/pestilence-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Pestilence.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Animal Crossing New Horizons-P2P",
+      "url": "https://www.skidrowreloaded.com/animal-crossing-new-horizons-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Animal-Crossing-New-Horizons.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Ogu and the Secret Forest v1.41-P2P",
+      "url": "https://www.skidrowreloaded.com/ogu-and-the-secret-forest-v1-41-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/07/Ogu-and-the-Secret-Forest-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Shattered Divinities v1.0.26102501-P2P",
+      "url": "https://www.skidrowreloaded.com/shattered-divinities-v1-0-26102501-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/05/Shattered-Divinities.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Lost and Found Co v1.2.2b-P2P",
+      "url": "https://www.skidrowreloaded.com/lost-and-found-co-v1-2-2b-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/03/Lost-and-Found-Co.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Creature Kitchen v1.1.6-P2P",
+      "url": "https://www.skidrowreloaded.com/creature-kitchen-v1-1-6-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/02/Creature-Kitchen-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
+    {
+      "title": "Tabletop Tavern v1.11.24.1-P2P",
+      "url": "https://www.skidrowreloaded.com/tabletop-tavern-v1-11-24-1-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/06/Tabletop-Tavern.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T00:55:36+00:00"
+    },
     {
       "title": "GRIME II A Final Coda-RUNE",
       "url": "https://www.skidrowreloaded.com/grime-ii-a-final-coda-rune/",
@@ -1396,62 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/771-Smile-and-work.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T09:01:05+00:00"
-    },
-    {
-      "title": "Funeral for the Sun-TENOKE",
-      "url": "https://www.skidrowreloaded.com/funeral-for-the-sun-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Funeral-for-the-Sun.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T09:01:05+00:00"
-    },
-    {
-      "title": "PITH-TENOKE",
-      "url": "https://www.skidrowreloaded.com/pith-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/PITH.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T09:01:05+00:00"
-    },
-    {
-      "title": "TK The LW Oath of Heaven Enhanced Edition-TENOKE",
-      "url": "https://www.skidrowreloaded.com/three-kingdoms-the-last-warlord-oath-of-heaven-enhanced-edition-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/12/Three-Kingdoms-The-Last-Warlord-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T09:01:05+00:00"
-    },
-    {
-      "title": "Gears of War E-Day v4958079-P2P",
-      "url": "https://www.skidrowreloaded.com/gears-of-war-e-day-v4958079-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Gears-of-War-E-Day.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "Mortal Shell II v99887.3038-P2P",
-      "url": "https://www.skidrowreloaded.com/mortal-shell-ii-v99887-3038-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/08/Mortal-Shell-II-pc-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "The Blood of Dawnwalker v1.2.0-P2P",
-      "url": "https://www.skidrowreloaded.com/the-blood-of-dawnwalker-v1-2-0-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/The-Blood-of-Dawnwalker-pc-download.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T08:01:04+00:00"
-    },
-    {
-      "title": "Re2 I Rise Alone-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/re2-i-rise-alone-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Re2-I-Rise-Alone.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T10:40:42+00:00"
     }
   ]
 }
