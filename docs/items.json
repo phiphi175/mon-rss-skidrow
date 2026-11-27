@@ -1,18 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T15:05:45+00:00",
-  "last_success_at": "2026-11-27T15:01:11+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T15:10:49+00:00",
+  "last_success_at": "2026-11-27T15:10:49+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML non interrogé (robots.txt : HTTP 415)"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Aksun-RUNE",
+      "url": "https://www.skidrowreloaded.com/aksun-rune/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Aksun.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:10:49+00:00"
+    },
     {
       "title": "Network and Cyber Security Simulator Early Access",
       "url": "https://www.skidrowreloaded.com/network-and-cyber-security-simulator-early-access/",
@@ -1444,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TANUKI-Pons-Summer.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Wicked Island-Razor1911",
-      "url": "https://www.skidrowreloaded.com/wicked-island-razor1911/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wicked-Island.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
     }
   ]
 }

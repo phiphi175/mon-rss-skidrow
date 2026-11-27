@@ -5,9 +5,16 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 15:05:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 15:10:49 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aksun-RUNE</title>
+      <link>https://www.skidrowreloaded.com/aksun-rune/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/aksun-rune/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Aksun.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Aksun.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Network and Cyber Security Simulator Early Access</title>
       <link>https://www.skidrowreloaded.com/network-and-cyber-security-simulator-early-access/</link>
@@ -1260,13 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/tanuki-pons-summer-tenoke/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TANUKI-Pons-Summer.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TANUKI-Pons-Summer.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Wicked Island-Razor1911</title>
-      <link>https://www.skidrowreloaded.com/wicked-island-razor1911/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/wicked-island-razor1911/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wicked-Island.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wicked-Island.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
