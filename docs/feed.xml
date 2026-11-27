@@ -5,9 +5,23 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 04:20:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 04:25:32 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bus Simulator 27 v1.21-P2P</title>
+      <link>https://www.skidrowreloaded.com/bus-simulator-27-v1-21-p2p/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/bus-simulator-27-v1-21-p2p/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Bus-Simulator-27.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Bus-Simulator-27.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Business Simulator-TENOKE</title>
+      <link>https://www.skidrowreloaded.com/business-simulator-tenoke/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/business-simulator-tenoke/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Business-Simulator.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Business-Simulator.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Witcher 3 Wild Hunt Remastered v5.02-P2P</title>
       <link>https://www.skidrowreloaded.com/the-witcher-3-wild-hunt-remastered-v5-02-p2p/</link>
@@ -1253,20 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/dreadmiles-early-access/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Disney Dreamlight Valley The Keepsake Sea-RUNE</title>
-      <link>https://www.skidrowreloaded.com/disney-dreamlight-valley-the-keepsake-sea-rune/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/disney-dreamlight-valley-the-keepsake-sea-rune/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Disney-Dreamlight-Valley-The-Keepsake-Sea.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Disney-Dreamlight-Valley-The-Keepsake-Sea.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Littlelands Early Access</title>
-      <link>https://www.skidrowreloaded.com/littlelands-early-access/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/littlelands-early-access/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Littlelands.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Littlelands.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

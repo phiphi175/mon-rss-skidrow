@@ -1,18 +1,33 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T04:20:41+00:00",
-  "last_success_at": "2026-11-27T04:15:43+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T04:25:32+00:00",
+  "last_success_at": "2026-11-27T04:25:32+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Bus Simulator 27 v1.21-P2P",
+      "url": "https://www.skidrowreloaded.com/bus-simulator-27-v1-21-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Bus-Simulator-27.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T04:25:32+00:00"
+    },
+    {
+      "title": "Business Simulator-TENOKE",
+      "url": "https://www.skidrowreloaded.com/business-simulator-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Business-Simulator.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T04:25:32+00:00"
+    },
     {
       "title": "The Witcher 3 Wild Hunt Remastered v5.02-P2P",
       "url": "https://www.skidrowreloaded.com/the-witcher-3-wild-hunt-remastered-v5-02-p2p/",
@@ -1434,22 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/dreadmiles-early-access/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T16:10:55+00:00"
-    },
-    {
-      "title": "Disney Dreamlight Valley The Keepsake Sea-RUNE",
-      "url": "https://www.skidrowreloaded.com/disney-dreamlight-valley-the-keepsake-sea-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Disney-Dreamlight-Valley-The-Keepsake-Sea.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T15:45:47+00:00"
-    },
-    {
-      "title": "Littlelands Early Access",
-      "url": "https://www.skidrowreloaded.com/littlelands-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Littlelands.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T16:10:55+00:00"
     }
