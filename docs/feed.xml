@@ -5,9 +5,23 @@
     <link>https://phiphi175.github.io/mon-rss-skidrow/</link>
     <description>Titres des publications publiques (agrégateur non officiel ; aucun fichier hébergé).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 27 Nov 2026 05:10:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 05:15:43 +0000</lastBuildDate>
     <generator>Mon RSS Publications 1.1</generator>
     <atom:link href="https://phiphi175.github.io/mon-rss-skidrow/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stolen Realm Bard Pack-TENOKE</title>
+      <link>https://www.skidrowreloaded.com/stolen-realm-bard-pack-tenoke/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/stolen-realm-bard-pack-tenoke/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2024/03/Stolen-Realm-pc-free-download.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2024/03/Stolen-Realm-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tank Squad Ponyri-TENOKE</title>
+      <link>https://www.skidrowreloaded.com/tank-squad-ponyri-tenoke/</link>
+      <guid isPermaLink="true">https://www.skidrowreloaded.com/tank-squad-ponyri-tenoke/</guid>
+      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2025/05/Tank-Squad-pc-free-download.jpg" />
+      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2025/05/Tank-Squad-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bus Simulator 27 v1.21-P2P</title>
       <link>https://www.skidrowreloaded.com/bus-simulator-27-v1-21-p2p/</link>
@@ -1253,20 +1267,6 @@
       <guid isPermaLink="true">https://www.skidrowreloaded.com/kingdoms-of-the-dump-v1-1-10-p2p/</guid>
       <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Kingdoms-of-the-Dump-pc-free-download.jpg" />
       <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Kingdoms-of-the-Dump-pc-free-download.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Trailmakers v254.519.592.0-P2P</title>
-      <link>https://www.skidrowreloaded.com/trailmakers-v254-519-592-0-p2p/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/trailmakers-v254-519-592-0-p2p/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2024/04/Trailmakers-pc-free-download.png" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2024/04/Trailmakers-pc-free-download.png" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dreadmiles Early Access</title>
-      <link>https://www.skidrowreloaded.com/dreadmiles-early-access/</link>
-      <guid isPermaLink="true">https://www.skidrowreloaded.com/dreadmiles-early-access/</guid>
-      <media:thumbnail url="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg" />
-      <description>&lt;p&gt;&lt;img src="https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg" alt="Miniature de la publication" /&gt;&lt;/p&gt;&lt;p&gt;Nouvelle publication sur le site source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

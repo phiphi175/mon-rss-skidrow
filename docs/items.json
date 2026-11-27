@@ -1,18 +1,33 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T05:10:43+00:00",
-  "last_success_at": "2026-11-27T05:05:33+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T05:15:43+00:00",
+  "last_success_at": "2026-11-27T05:15:43+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Stolen Realm Bard Pack-TENOKE",
+      "url": "https://www.skidrowreloaded.com/stolen-realm-bard-pack-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/03/Stolen-Realm-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T05:15:43+00:00"
+    },
+    {
+      "title": "Tank Squad Ponyri-TENOKE",
+      "url": "https://www.skidrowreloaded.com/tank-squad-ponyri-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/05/Tank-Squad-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T05:15:43+00:00"
+    },
     {
       "title": "Bus Simulator 27 v1.21-P2P",
       "url": "https://www.skidrowreloaded.com/bus-simulator-27-v1-21-p2p/",
@@ -1436,22 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Kingdoms-of-the-Dump-pc-free-download.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Trailmakers v254.519.592.0-P2P",
-      "url": "https://www.skidrowreloaded.com/trailmakers-v254-519-592-0-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/04/Trailmakers-pc-free-download.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Dreadmiles Early Access",
-      "url": "https://www.skidrowreloaded.com/dreadmiles-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dreadmiles.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T16:10:55+00:00"
     }
   ]
 }
