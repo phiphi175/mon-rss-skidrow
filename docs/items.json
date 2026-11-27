@@ -1,18 +1,65 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T14:55:38+00:00",
-  "last_success_at": "2026-11-27T14:50:45+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T15:01:11+00:00",
+  "last_success_at": "2026-11-27T15:01:11+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML non interrogé (robots.txt : HTTP 415)"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Network and Cyber Security Simulator Early Access",
+      "url": "https://www.skidrowreloaded.com/network-and-cyber-security-simulator-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Network-and-Cyber-Security-Simulator.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
+    {
+      "title": "Son of Beach-GoldBerg",
+      "url": "https://www.skidrowreloaded.com/son-of-beach-goldberg/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Son-of-Beach.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
+    {
+      "title": "Food Devils Early Access",
+      "url": "https://www.skidrowreloaded.com/food-devils-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Food-Devils.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
+    {
+      "title": "Arctic Drive Early Access",
+      "url": "https://www.skidrowreloaded.com/arctic-drive-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Arctic-Drive.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
+    {
+      "title": "Alone at School Christmas-P2P",
+      "url": "https://www.skidrowreloaded.com/alone-at-school-christmas-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Alone-at-School-Christmas.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
+    {
+      "title": "Cat Cafe Manager 2 Big City Bliss Early Access",
+      "url": "https://www.skidrowreloaded.com/cat-cafe-manager-2-big-city-bliss-early-access/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Cat-Cafe-Manager-2-Big-City-Bliss.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T15:01:11+00:00"
+    },
     {
       "title": "Reshine-TENOKE",
       "url": "https://www.skidrowreloaded.com/reshine-tenoke/",
@@ -1402,54 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/wicked-island-razor1911/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Wicked-Island.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Creator Chronicles v1.21-P2P",
-      "url": "https://www.skidrowreloaded.com/creator-chronicles-v1-21-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Creator-Chronicles.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Reus 2 v1.12.2-P2P",
-      "url": "https://www.skidrowreloaded.com/reus-2-v1-12-2-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/05/Reus-2-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Above the Snow v1.4-P2P",
-      "url": "https://www.skidrowreloaded.com/above-the-snow-v1-4-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/04/Above-the-Snow.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Ale And Tale Tavern v1.6.19-P2P",
-      "url": "https://www.skidrowreloaded.com/ale-and-tale-tavern-v1-6-19-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/03/Ale-and-Tale-Tavern.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "The Roottrees are Dead v20261116-P2P",
-      "url": "https://www.skidrowreloaded.com/the-roottrees-are-dead-v20261116-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/01/The-Roottrees-are-Dead-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:20:41+00:00"
-    },
-    {
-      "title": "Loot Loop v1.2-P2P",
-      "url": "https://www.skidrowreloaded.com/loot-loop-v1-2-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/04/Loot-Loop.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T05:20:41+00:00"
     }
