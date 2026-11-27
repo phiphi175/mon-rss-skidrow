@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T03:15:41+00:00",
-  "last_success_at": "2026-11-27T03:15:41+00:00",
+  "checked_at": "2026-11-27T03:20:41+00:00",
+  "last_success_at": "2026-11-27T03:20:41+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "The Witcher 3 Wild Hunt Remastered v5.02-P2P",
+      "url": "https://www.skidrowreloaded.com/the-witcher-3-wild-hunt-remastered-v5-02-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/The-Witcher-3-Wild-Hunt-Remastered.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T03:20:41+00:00"
+    },
     {
       "title": "Lords of the Fallen v20261126-P2P",
       "url": "https://www.skidrowreloaded.com/lords-of-the-fallen-v20261126-p2p/",
@@ -1441,14 +1449,6 @@
       "url": "https://www.skidrowreloaded.com/littlelands-early-access/",
       "published": "",
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Littlelands.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T16:10:55+00:00"
-    },
-    {
-      "title": "Sol One Early Access",
-      "url": "https://www.skidrowreloaded.com/sol-one-early-access/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Sol-One.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T16:10:55+00:00"
     }
