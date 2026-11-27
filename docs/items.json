@@ -1,18 +1,33 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-27T02:10:40+00:00",
-  "last_success_at": "2026-11-27T02:05:35+00:00",
-  "status": "erreur",
-  "source_type": "",
-  "message": "La source n'a pas pu être lue ; les publications précédentes sont conservées.",
+  "checked_at": "2026-11-27T02:15:44+00:00",
+  "last_success_at": "2026-11-27T02:15:44+00:00",
+  "status": "ok",
+  "source_type": "Page d'accueil HTML",
+  "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/?feed=rss2",
-    "HTML : 415 Client Error: Unsupported Media Type for url: https://www.skidrowreloaded.com/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Warhammer 40000 Space Marine 2 Ultra Edition v16.0-P2P",
+      "url": "https://www.skidrowreloaded.com/warhammer-40000-space-marine-2-ultra-edition-v16-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/06/Warhammer-40000-Space-Marine-2-pc-free-download.png",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T02:15:44+00:00"
+    },
+    {
+      "title": "Gears of War E-Day v20261125-P2P",
+      "url": "https://www.skidrowreloaded.com/gears-of-war-e-day-v20261125-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/10/Gears-of-War-E-Day.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-27T02:15:44+00:00"
+    },
     {
       "title": "Pestilence-P2P",
       "url": "https://www.skidrowreloaded.com/pestilence-p2p/",
@@ -1436,22 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Milki-Delivery.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-18T16:10:55+00:00"
-    },
-    {
-      "title": "eFootball PES 2021 v1.07.02-Aoba",
-      "url": "https://www.skidrowreloaded.com/efootball-pes-2021-v1-07-02-aoba/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/eFootball-PES-2021.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T12:45:44+00:00"
-    },
-    {
-      "title": "771 Smile and work-TENOKE",
-      "url": "https://www.skidrowreloaded.com/771-smile-and-work-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/771-Smile-and-work.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-18T09:01:05+00:00"
     }
   ]
 }
