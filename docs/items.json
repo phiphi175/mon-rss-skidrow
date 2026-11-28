@@ -1,17 +1,25 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-28T02:30:58+00:00",
-  "last_success_at": "2026-11-28T02:30:58+00:00",
+  "checked_at": "2026-11-28T02:35:37+00:00",
+  "last_success_at": "2026-11-28T02:35:37+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
   "errors": [
     "RSS https://feeds.feedburner.com/SkidrowReloadedGames: dernières dates de publication trop anciennes, autre méthode tentée",
     "RSS https://www.skidrowreloaded.com/feed/: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/",
-    "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
+    "RSS https://www.skidrowreloaded.com/?feed=rss2: HTTPSConnectionPool(host='www.skidrowreloaded.com', port=443): Read timed out. (read timeout=16)"
   ],
   "items": [
+    {
+      "title": "Tempest Rising v2.1.0.61180-P2P",
+      "url": "https://www.skidrowreloaded.com/tempest-rising-v2-1-0-61180-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/04/Tempest-Rising-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T02:35:37+00:00"
+    },
     {
       "title": "The Awakener Battle Tendency v2.0-RUNE",
       "url": "https://www.skidrowreloaded.com/the-awakener-battle-tendency-v2-0-rune/",
@@ -1443,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Springs-Eternal.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T15:15:38+00:00"
-    },
-    {
-      "title": "Dawn of Defense-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/dawn-of-defense-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Dawn-of-Defense.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T12:30:56+00:00"
     }
   ]
 }
