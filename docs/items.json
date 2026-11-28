@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-28T01:35:38+00:00",
-  "last_success_at": "2026-11-28T01:35:38+00:00",
+  "checked_at": "2026-11-28T01:40:46+00:00",
+  "last_success_at": "2026-11-28T01:40:46+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "Moonlighter 2 The Endless Vault v1.1.0.4-P2P",
+      "url": "https://www.skidrowreloaded.com/moonlighter-2-the-endless-vault-v1-1-0-4-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Moonlighter-2-The-Endless-Vault.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:40:46+00:00"
+    },
     {
       "title": "The Bell Echoes v1.0.2026.11.25.0-P2P",
       "url": "https://www.skidrowreloaded.com/the-bell-echoes-v1-0-2026-11-25-0-p2p/",
@@ -1443,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Flick.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T11:31:16+00:00"
-    },
-    {
-      "title": "Totos Journey-RUNE",
-      "url": "https://www.skidrowreloaded.com/totos-journey-rune/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Totos-Journey.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T07:35:31+00:00"
     }
   ]
 }
