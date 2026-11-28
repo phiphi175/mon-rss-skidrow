@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-28T02:45:47+00:00",
-  "last_success_at": "2026-11-28T02:45:47+00:00",
+  "checked_at": "2026-11-28T02:50:45+00:00",
+  "last_success_at": "2026-11-28T02:50:45+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "EVERYBODYS GOLF HOT SHOTS v1.0.15-P2P",
+      "url": "https://www.skidrowreloaded.com/everybodys-golf-hot-shots-v1-0-15-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/EVERYBODYS-GOLF-HOT-SHOTS-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T02:50:45+00:00"
+    },
     {
       "title": "Tempest Rising v2.1.0.61180-P2P",
       "url": "https://www.skidrowreloaded.com/tempest-rising-v2-1-0-61180-p2p/",
@@ -1443,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Goat-Simulator-3-Ticket-to-Dizzyworld.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T15:20:41+00:00"
-    },
-    {
-      "title": "Springs Eternal-GoldBerg",
-      "url": "https://www.skidrowreloaded.com/springs-eternal-goldberg/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Springs-Eternal.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T15:15:38+00:00"
     }
   ]
 }
