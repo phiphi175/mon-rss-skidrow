@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-28T04:05:35+00:00",
-  "last_success_at": "2026-11-28T04:05:35+00:00",
+  "checked_at": "2026-11-28T04:10:47+00:00",
+  "last_success_at": "2026-11-28T04:10:47+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,14 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "The False Alice Retold Tale-TENOKE",
+      "url": "https://www.skidrowreloaded.com/the-false-alice-retold-tale-tenoke/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/The-False-Alice-Retold-Tale.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T04:10:47+00:00"
+    },
     {
       "title": "MeowFactory-TENOKE",
       "url": "https://www.skidrowreloaded.com/meowfactory-tenoke/",
@@ -1443,14 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/09/Satisfactory-pc-free-download.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-20T06:40:45+00:00"
-    },
-    {
-      "title": "REC REWIND-P2P",
-      "url": "https://www.skidrowreloaded.com/rec-rewind-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/REC-REWIND.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T19:50:52+00:00"
     }
   ]
 }
