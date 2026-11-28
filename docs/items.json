@@ -1,8 +1,8 @@
 {
   "title": "Mon fil de publications",
   "source_url": "https://www.skidrowreloaded.com/",
-  "checked_at": "2026-11-28T01:31:00+00:00",
-  "last_success_at": "2026-11-28T01:31:00+00:00",
+  "checked_at": "2026-11-28T01:35:38+00:00",
+  "last_success_at": "2026-11-28T01:35:38+00:00",
   "status": "ok",
   "source_type": "Page d'accueil HTML",
   "message": "9 articles trouvés ; 180 conservés.",
@@ -12,6 +12,78 @@
     "RSS https://www.skidrowreloaded.com/?feed=rss2: 403 Client Error: Forbidden for url: https://www.skidrowreloaded.com/feed/"
   ],
   "items": [
+    {
+      "title": "The Bell Echoes v1.0.2026.11.25.0-P2P",
+      "url": "https://www.skidrowreloaded.com/the-bell-echoes-v1-0-2026-11-25-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/The-Bell-Echoes.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "Little Nightmares III v20261127-P2P",
+      "url": "https://www.skidrowreloaded.com/little-nightmares-iii-v20261127-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/10/Little-Nightmares-III-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "BioEden v1.4.0.3-P2P",
+      "url": "https://www.skidrowreloaded.com/bioeden-v1-4-0-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/BioEden.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "TerraScape v2.2.1.5-P2P",
+      "url": "https://www.skidrowreloaded.com/terrascape-v2-2-1-5-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2024/07/TerraScape-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "Gold Mining Simulator Definitive Edition v1.0.0.3-P2P",
+      "url": "https://www.skidrowreloaded.com/gold-mining-simulator-definitive-edition-v1-0-0-3-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Gold-Mining-Simulator-Definitive-Edition.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "UNBEATABLE v2.6.0-P2P",
+      "url": "https://www.skidrowreloaded.com/unbeatable-v2-6-0-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/12/UNBEATABLE-pc-free-download.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "The Meter is Running v1.4.2-P2P",
+      "url": "https://www.skidrowreloaded.com/the-meter-is-running-v1-4-2-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/05/The-Meter-is-Running.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "Welcome to the Game III v20261125-P2P",
+      "url": "https://www.skidrowreloaded.com/welcome-to-the-game-iii-v20261125-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/07/Welcome-to-the-Game-III.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
+    {
+      "title": "Sister Ray v20261125-P2P",
+      "url": "https://www.skidrowreloaded.com/sister-ray-v20261125-p2p/",
+      "published": "",
+      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/06/Sister-Ray.jpg",
+      "image_checked_at": "",
+      "first_seen": "2026-11-28T01:35:38+00:00"
+    },
     {
       "title": "Aksun-RUNE",
       "url": "https://www.skidrowreloaded.com/aksun-rune/",
@@ -1379,78 +1451,6 @@
       "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/Totos-Journey.jpg",
       "image_checked_at": "",
       "first_seen": "2026-11-19T07:35:31+00:00"
-    },
-    {
-      "title": "Call to Arms Gates of Hell Ostfront v1.069.0-P2P",
-      "url": "https://www.skidrowreloaded.com/call-to-arms-gates-of-hell-ostfront-v1-069-0-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/08/Call-to-Arms-Gates-of-Hell-Ostfront.png",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "ONE FENIX DOWN-TENOKE",
-      "url": "https://www.skidrowreloaded.com/one-fenix-down-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/One-Fenix-Down.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Talisman Digital 5th Edition The Dungeon Classic-TENOKE",
-      "url": "https://www.skidrowreloaded.com/talisman-digital-5th-edition-the-dungeon-classic-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/05/Talisman-Digital-5th-Edition.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Europa Universalis V v1.4.9-P2P",
-      "url": "https://www.skidrowreloaded.com/europa-universalis-v-v1-4-9-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/11/Europa-Universalis-V-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Endless Legend 2 v1.0.239-P2P",
-      "url": "https://www.skidrowreloaded.com/endless-legend-2-v1-0-239-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/ENDLESS-Legend-2.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "The Rogue Prince of Persia v20261117-P2P",
-      "url": "https://www.skidrowreloaded.com/the-rogue-prince-of-persia-v20261117-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/08/The-Rogue-Prince-of-Persia.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Ved Recure v0.0.1886-P2P",
-      "url": "https://www.skidrowreloaded.com/ved-recure-v0-0-1886-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/09/Ved-Recure.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "Shape of Dreams v1.4.2-P2P",
-      "url": "https://www.skidrowreloaded.com/shape-of-dreams-v1-4-2-p2p/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2025/09/Shape-of-Dreams-pc-free-download.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
-    },
-    {
-      "title": "TANUKI Pons Summer-TENOKE",
-      "url": "https://www.skidrowreloaded.com/tanuki-pons-summer-tenoke/",
-      "published": "",
-      "image": "https://www.skidrowreloaded.com/wp-content/uploads/2026/11/TANUKI-Pons-Summer.jpg",
-      "image_checked_at": "",
-      "first_seen": "2026-11-19T05:30:52+00:00"
     }
   ]
 }
